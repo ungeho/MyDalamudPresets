@@ -1,0 +1,1 @@
+dalamud pluginで作った設定の置き場
