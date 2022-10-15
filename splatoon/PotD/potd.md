@@ -4,14 +4,17 @@
   Distance Limitはなし（0-100m）
 
 * Target Sensing Range
+
   ターゲット対象を中心に、緑色の半径 target hitbox + 10m　の円を表示
   ターゲットしている敵の感知範囲の簡易的な目安
 
 * Mimic Sensing Range
+
   ミミックを中心に、黄色の半径 target hitbox + 14m の円を表示
   ミミックの感知範囲の目安
 
 * Mandragora Sensing Range
+
   ピグマイオイを中心に、水色の半径 target hitbox + 14m の円を表示
   敵変化によるピグマイオイ出現の目安
 
