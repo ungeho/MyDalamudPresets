@@ -1,4 +1,5 @@
 ***Palace of the dead Radar***
+
   全ての階で表示される。
   Distance Limitはなし（0-100m）
 
@@ -51,11 +52,13 @@
   always pixel perfect（足元のdot）が表示された円に入ると取得可能（正確でない）
 
 * Treasure Chest Bronze4(MiMic)
+
   銅箱(ミミック)を中心に、水色の半径 target hitbox + 2.5m の円を表示
   銅箱（ミミック）の場所の目安
   always pixel perfect（足元のdot）が表示された円に入ると取得可能（正確でない）
 
 * Morphological change Range
+
   自身を中心に、水色の半径 your hitbox + 18m の円を表示
   形態変化のレンジの目安（敵のターゲットサークルが円に触れていれば有効）
 
