@@ -73,3 +73,7 @@
   * All 6m AoE
 
     全てのプレイヤーキャラクターを中心に半径6mの円を表示
+
+```
+~Lv2~{"Enabled":false,"Name":"All Players","Group":"Buttle Jobs","DCond":3,"ElementsL":[{"Name":"All hitbox","type":1,"radius":0.0,"color":3357277952,"thicc":2.2,"refActorComparisonType":4},{"Name":"All 6m Aoe","type":1,"radius":6.0,"color":3357277952,"thicc":0.2,"refActorComparisonType":4}]}
+```
