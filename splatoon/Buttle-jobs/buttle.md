@@ -55,3 +55,21 @@
 ```
 {"Name":"Target Circle Range","type":1,"radius":0.0,"overlayVOffset":1.0,"overlayPlaceholders":true,"overlayText":"HITBOXR->$HITBOXR","refActorType":2}
 ```
+
+* All Players（動作未確認）
+
+  初期設定オフにしているので使う場合はチェックを入れる
+
+  Generalと被るので使う場合はGeneralをオフにする事を推奨
+
+  特に、アライアンスレイド、エウレカ、ボズヤなどの人の多いコンテンツではごちゃごちゃするので注意
+
+  全てのジョブで戦闘時かつインスタンス内でのみ表示
+
+  * All hitbox
+
+    全てのプレイヤーキャラクターの中心に点を表示
+
+  * All 6m AoE
+
+    全てのプレイヤーキャラクターを中心に半径6mの円を表示
