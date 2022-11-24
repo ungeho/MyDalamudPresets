@@ -4,7 +4,7 @@
 
   * HitBox
 
-    自身を中心にdotを表示(HitBoxの目安)
+    自身を中心にdotを表示（当たり判定の目安)
 
   * 6mAoE
 
@@ -48,9 +48,9 @@
 
   全てのジョブで常時表示
 
-  ターゲット対象した対象のHitboxの半径を表示する。
+  ターゲット対象した対象のターゲットサークルの半径（HITBOXR）を表示する。
 
-  特に、ほとんどの散開用AoE（半径6mの円型）はHITBOXRが8（7.9）以上の場合、ターゲットサークル上で8方向散開が可能
+  特に、ほとんどの散開用AoE（半径6mの円型）は、ターゲットサークルの半径（HITBOXR）が8（7.9）以上の場合、ターゲットサークル上で8方向散開が可能
 
 ```
 {"Name":"Target Circle Range","type":1,"radius":0.0,"overlayVOffset":1.0,"overlayPlaceholders":true,"overlayText":"HITBOXR->$HITBOXR","refActorType":2}
