@@ -5,7 +5,7 @@
   ターゲット可能な全てのプレイヤーのhitboxを表示
 
 ```
-~Lv2~{"Name":"players","Group":"PvP","ZoneLockH":[554,888,376,431,1033,1059,1058,1032,1034,1060,791],"ElementsL":[{"Name":"hitbox","type":1,"radius":0.0,"thicc":1.0,"FillStep":5.0,"refActorComparisonType":4,"includeHitbox":true,"onlyTargetable":true}]
+~Lv2~{"Name":"players","Group":"PvP","ZoneLockH":[554,888,376,431,1033,1059,1058,1032,1034,1060,791],"ElementsL":[{"Name":"hitbox","type":1,"radius":0.0,"thicc":1.0,"FillStep":5.0,"refActorComparisonType":4,"includeHitbox":true,"onlyTargetable":true}]}
 ```
 
 * Icebound Tomeliths
