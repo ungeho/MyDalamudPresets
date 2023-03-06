@@ -1,4 +1,4 @@
-#Palace of The Dead Radar
+# Palace of The Dead Radar
 
   全ての階で表示される。
 
