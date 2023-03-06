@@ -1,4 +1,4 @@
-# Palace of The Dead Mobs
+#Palace of The Dead Mobs
 
   DeepDungeonDexを参考に、敵の感知範囲を表示する。
 
