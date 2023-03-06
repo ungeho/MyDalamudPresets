@@ -1,4 +1,4 @@
-#Heaven on High Mobs
+# Heaven on High Mobs
 
   DeepDungeonDexを参考に、敵の感知範囲を表示する。
 

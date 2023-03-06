@@ -1,8 +1,8 @@
 # Heaven on High Radar
 
-全ての階で表示される。
+  全ての階で表示される。
 
-表示範囲は0-100m
+  表示範囲は0-100m
 
 * Target Sensing Range
 
