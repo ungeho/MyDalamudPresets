@@ -4,26 +4,6 @@
 
   表示範囲は0-40m
 
-  ※ほぼ全ての階で未確認
-
-* 視覚感知
-
-  視覚感知の敵を中心に、緑色の半径 target hitbox + 10m の円を表示
-
-  視覚感知の敵を中心に、緑色の前方90度の扇範囲を表示
-
-* 接近感知
-
-  接近感知の敵を中心に、赤色の半径 target hitbox + 10m の円を表示
-
-* 聴覚感知
-
-  聴覚感知の敵を中心に、紫色の半径 target hitbox + 10m の円を表示
-
-* 接触感知
-
-  全ての敵を中心に、赤色の半径 0m の円を表示（ドット）
-  接触判定の目安
 
 * 21-30F
 
@@ -72,3 +52,22 @@
 ```
 ~Lv2~{"Name":"Heaven on High Mobs 91-99F","Group":"Heaven on High","ZoneLockH":[785],"ElementsL":[{"Name":"Sight","type":4,"Enabled":false,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"FillStep":15.0,"refActorType":2,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"Proximity","type":1,"Enabled":false,"radius":10.0,"refActorType":2,"includeHitbox":true},{"Name":"Sound","type":1,"Enabled":false,"radius":10.0,"color":3372155099,"refActorType":2,"includeHitbox":true},{"Name":"Sight Range","type":1,"Enabled":false,"radius":10.0,"color":3355508480,"refActorType":2,"includeHitbox":true},{"Name":"dot","type":1,"Enabled":false,"radius":0.0,"refActorType":2},{"Name":"アメノ・ヌツヘツホウ","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNameIntl":{"Jp":"アメノ・ヌツヘツホウ"},"FillStep":15.0,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"アメノ・ヌツヘツホウ(Sight Range)","type":1,"radius":10.0,"color":3355508480,"refActorNameIntl":{"Jp":"アメノ・ヌツヘツホウ"},"includeHitbox":true},{"Name":"アメノ・ゴズ","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNameIntl":{"Jp":"アメノ・ゴズ"},"FillStep":15.0,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"アメノ・ゴズ(Sight Range)","type":1,"radius":10.0,"color":3355508480,"refActorNameIntl":{"Jp":"アメノ・ゴズ"},"includeHitbox":true},{"Name":"アメノ・クビナシ","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":7389,"FillStep":15.0,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"アメノ・クビナシ(Sight Range)","type":1,"radius":10.0,"color":3355508480,"refActorNPCNameID":7389,"refActorComparisonType":6,"includeHitbox":true},{"Name":"アメノ・ジンバ","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":7584,"FillStep":15.0,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"アメノ・ジンバ(Sight Range)","type":1,"radius":10.0,"color":3355508480,"refActorNPCNameID":7584,"refActorComparisonType":6,"includeHitbox":true},{"Name":"アメノ・キョウゾウ","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":7384,"FillStep":15.0,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"アメノ・キョウゾウ(Sight Range)","type":1,"radius":10.0,"color":3355508480,"refActorNPCNameID":7384,"refActorComparisonType":6,"includeHitbox":true},{"Name":"アメノ・ジャキ","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":7382,"FillStep":15.0,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"アメノ・ジャキ(Sight Range)","type":1,"radius":10.0,"color":3355508480,"refActorNPCNameID":7382,"refActorComparisonType":6,"includeHitbox":true},{"Name":"アメノ・テンマ","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":7390,"FillStep":15.0,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"アメノ・テンマ(Sight Range)","type":1,"radius":10.0,"color":3355508480,"refActorNPCNameID":7390,"refActorComparisonType":6,"includeHitbox":true},{"Name":"アメノ・ゼンキ","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":7387,"FillStep":15.0,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"アメノ・ゼンキ(Sight Range)","type":1,"radius":10.0,"color":3355508480,"refActorNPCNameID":7387,"refActorComparisonType":6,"includeHitbox":true},{"Name":"アメノ・シュワブチ","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCID":7386,"FillStep":15.0,"refActorComparisonType":4,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"アメノ・シュワブチ(Sight Range)","type":1,"radius":10.0,"color":3355508480,"refActorNPCID":7386,"FillStep":15.0,"refActorComparisonType":4,"includeHitbox":true},{"Name":"アメノ・クロキシ","type":1,"radius":10.0,"refActorNPCNameID":7385,"refActorComparisonType":6,"includeHitbox":true},{"Name":"アメノ・ミフネ","type":1,"radius":10.0,"refActorNPCNameID":7381,"refActorComparisonType":6,"includeHitbox":true},{"Name":"アメノ・ヌツヘツホウ(dot)","type":1,"radius":0.0,"refActorNameIntl":{"Jp":"アメノ・ヌツヘツホウ"}},{"Name":"アメノ・ゴズ(dot)","type":1,"radius":0.0,"refActorNameIntl":{"Jp":"アメノ・ゴズ"}},{"Name":"アメノ・クビナシ(dot)","type":1,"radius":0.0,"refActorNPCNameID":7389,"refActorComparisonType":6},{"Name":"アメノ・ジンバ(dot)","type":1,"radius":0.0,"refActorNPCNameID":7584,"refActorComparisonType":6},{"Name":"アメノ・キョウゾウ(dot)","type":1,"radius":0.0,"refActorNPCNameID":7384,"refActorComparisonType":6},{"Name":"アメノ・ジャキ(dot)","type":1,"radius":0.0,"refActorNPCNameID":7382,"refActorComparisonType":6},{"Name":"アメノ・テンマ(dot)","type":1,"radius":0.0,"refActorNPCNameID":7390,"refActorComparisonType":6},{"Name":"アメノ・ゼンキ(dot)","type":1,"radius":0.0,"refActorNPCNameID":7387,"refActorComparisonType":6},{"Name":"アメノ・シュワブチ(dot)","type":1,"radius":0.0,"refActorNPCID":7386,"refActorComparisonType":4}]}
 ```
+
+* 視覚感知
+
+  視覚感知の敵を中心に、緑色の半径 target hitbox + 10m の円を表示
+
+  視覚感知の敵を中心に、緑色の前方90度の扇範囲を表示
+
+* 接近感知
+
+  接近感知の敵を中心に、赤色の半径 target hitbox + 10m の円を表示
+
+* 聴覚感知
+
+  聴覚感知の敵を中心に、紫色の半径 target hitbox + 10m の円を表示
+
+* 接触感知
+
+  全ての敵を中心に、赤色の半径 0m の円を表示（ドット）
+  接触判定の目安

@@ -4,46 +4,6 @@
 
   表示範囲は0-40m
 
-* 視覚感知
-
-  視覚感知の敵を中心に、緑色の半径 target hitbox + 10m の円を表示
-
-  視覚感知の敵（アーリマン系を除く）を中心に、緑色の前方90度の扇範囲を表示
-
-  視覚感知の敵（アーリマン系）      を中心に、緑色の前方120度の扇範囲を表示
-
-* 接近感知
-
-  接近感知の敵を中心に、赤色の半径 target hitbox + 10m の円を表示
-
-* 聴覚感知
-
-  聴覚感知の敵を中心に、紫色の半径 target hitbox + 10m の円を表示
-
-* 接触感知
-
-  全ての敵を中心に、赤色の半径 0m の円を表示（ドット）
-
-  接触判定の目安
-
-* 個人的なメモなど
-
-  死者の情報はほとんど抜けている
-
-  ダングビートル（視覚感知）の感知範囲は10mより大きい（未修正）
-
-  ヒッポグリフ（接近感知）は恐らく接触判定がかなり広い（10m未満）視覚感知（約10mで視覚感知）安全の為に接近感知のまま放置
-
-  * 接触判定について（予想）
-
-    接触判定は以下の2種類が採用されていると予想
-
-      1. 自身を中心とした（自身のHitbox or 自身のタゲサ）と敵の中心が触れた時に接触した判定
-
-      1. 自身を中心とした（自身のHitbox or 自身のタゲサ）と敵を中心とした（敵のHitbox or 敵のタゲサ）が触れた時に接触した判定
-
-    ほとんどの敵はaで判定されて、一部がbの判定かもしれないと予想（未検証）
-
 
 * B51-60
 
@@ -134,3 +94,44 @@
 ```
 ~Lv2~{"Name":"Palace of The Dead Mobs B191-199","Group":"Palace of The Dead ","ZoneLockH":[607],"ElementsL":[{"Name":"Sight","type":4,"Enabled":false,"radius":10.0,"coneAngleMin":-90,"coneAngleMax":90,"color":3355508480,"thicc":0.0,"FillStep":15.0,"refActorType":2,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"Proximity","type":1,"Enabled":false,"radius":10.0,"refActorType":2,"includeHitbox":true},{"Name":"Sound","type":1,"Enabled":false,"radius":10.0,"color":3372155099,"refActorType":2,"includeHitbox":true},{"Name":"Sight Range","type":1,"Enabled":false,"radius":10.0,"color":3355508480,"refActorType":2,"includeHitbox":true},{"Name":"dot","type":1,"Enabled":false,"radius":0.0,"refActorType":2},{"Name":"ディープパレス・アイストラップ","type":1,"radius":10.0,"color":3372155099,"refActorNPCNameID":5472,"refActorComparisonType":6,"includeHitbox":true},{"Name":"ディープパレス・マミー","type":1,"radius":10.0,"refActorNPCNameID":5401,"refActorComparisonType":6,"includeHitbox":true},{"Name":"ディープパレス・ヒッポグリフ","type":1,"radius":10.0,"refActorNPCNameID":5364,"refActorComparisonType":6,"includeHitbox":true},{"Name":"ディープパレス・アイアンコース","type":1,"radius":10.0,"refActorNPCNameID":5475,"refActorComparisonType":6,"includeHitbox":true},{"Name":"ディープパレス・レイス","type":1,"radius":10.0,"refActorNPCNameID":5422,"FillStep":15.0,"refActorComparisonType":6,"includeHitbox":true},{"Name":"オニキスドラゴン","type":1,"radius":10.0,"refActorNPCNameID":5420,"FillStep":15.0,"refActorComparisonType":6,"includeHitbox":true},{"Name":"ディープパレス・ダブルヘッド","type":1,"radius":10.0,"refActorNPCNameID":5474,"refActorComparisonType":6,"includeHitbox":true},{"Name":"ディープパレス・ファハン","type":4,"radius":10.0,"coneAngleMin":-60,"coneAngleMax":60,"color":3355508480,"thicc":0.0,"refActorNPCNameID":5473,"FillStep":15.0,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"Filled":true},{"Name":"ディープパレス・ナイト","type":1,"radius":10.0,"refActorNPCNameID":5415,"refActorComparisonType":6,"includeHitbox":true},{"Name":"ディープパレス・グルマン","type":1,"radius":10.0,"refActorNPCNameID":5409,"refActorComparisonType":6,"includeHitbox":true},{"Name":"ディープパレス・キーパー","type":1,"radius":10.0,"color":3372155099,"refActorNPCNameID":5423,"refActorComparisonType":6,"includeHitbox":true},{"Name":"ディープパレス・ファハン(Sight Range)","type":1,"radius":10.0,"color":3355508480,"refActorNPCNameID":5473,"refActorComparisonType":6,"includeHitbox":true},{"Name":"ディープパレス・アイストラップ(dot)","type":1,"radius":0.0,"refActorNPCNameID":5472,"refActorComparisonType":6},{"Name":"ディープパレス・ファハン(dot)","type":1,"radius":0.0,"refActorNPCNameID":5473,"refActorComparisonType":6},{"Name":"ディープパレス・キーパー(dot)","type":1,"radius":0.0,"refActorNPCNameID":5423,"refActorComparisonType":6}],"MaxDistance":40.0,"UseDistanceLimit":true,"DistanceLimitType":1}
 ```
+
+
+* 視覚感知
+
+  視覚感知の敵を中心に、緑色の半径 target hitbox + 10m の円を表示
+
+  視覚感知の敵（アーリマン系を除く）を中心に、緑色の前方90度の扇範囲を表示
+
+  視覚感知の敵（アーリマン系）      を中心に、緑色の前方120度の扇範囲を表示
+
+* 接近感知
+
+  接近感知の敵を中心に、赤色の半径 target hitbox + 10m の円を表示
+
+* 聴覚感知
+
+  聴覚感知の敵を中心に、紫色の半径 target hitbox + 10m の円を表示
+
+* 接触感知
+
+  全ての敵を中心に、赤色の半径 0m の円を表示（ドット）
+
+  接触判定の目安
+
+* 個人的なメモなど
+
+  死者の情報はほとんど抜けている
+
+  ダングビートル（視覚感知）の感知範囲は10mより大きい（未修正）
+
+  ヒッポグリフ（接近感知）は恐らく接触判定がかなり広い（10m未満）視覚感知（約10mで視覚感知）安全の為に接近感知のまま放置
+
+  * 接触判定について（予想）
+
+    接触判定は以下の2種類が採用されていると予想
+
+      1. 自身を中心とした（自身のHitbox or 自身のタゲサ）と敵の中心が触れた時に接触した判定
+
+      1. 自身を中心とした（自身のHitbox or 自身のタゲサ）と敵を中心とした（敵のHitbox or 敵のタゲサ）が触れた時に接触した判定
+
+    ほとんどの敵はaで判定されて、一部がbの判定かもしれないと予想（未検証）
