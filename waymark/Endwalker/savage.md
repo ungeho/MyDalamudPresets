@@ -57,3 +57,33 @@
 ```
 {"Name":"Imported","MapID":884,"A":{"X":99.981,"Y":0.0,"Z":80.38,"ID":0,"Active":true},"B":{"X":119.542,"Y":0.0,"Z":100.018,"ID":1,"Active":true},"C":{"X":100.031,"Y":0.0,"Z":119.393,"ID":2,"Active":true},"D":{"X":80.591,"Y":0.0,"Z":99.891,"ID":3,"Active":true},"One":{"X":99.979,"Y":0.0,"Z":85.013,"ID":4,"Active":true},"Two":{"X":99.89,"Y":0.0,"Z":94.893,"ID":5,"Active":true},"Three":{"X":89.96,"Y":0.0,"Z":89.653,"ID":6,"Active":true},"Four":{"X":110.085,"Y":0.0,"Z":89.897,"ID":7,"Active":true}}
 ```
+
+* P9S
+
+```
+{"Name":"Imported","MapID":937,"A":{"X":100.0,"Y":0.0,"Z":86.05,"ID":0,"Active":true},"B":{"X":113.95,"Y":0.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":0.0,"Z":113.95,"ID":2,"Active":true},"D":{"X":86.05,"Y":0.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":109.864,"Y":0.0,"Z":90.135,"ID":4,"Active":true},"Two":{"X":109.864,"Y":0.0,"Z":109.864,"ID":5,"Active":true},"Three":{"X":90.135,"Y":0.0,"Z":109.864,"ID":6,"Active":true},"Four":{"X":90.135,"Y":0.0,"Z":90.135,"ID":7,"Active":true}}
+```
+
+* P10S
+
+```
+{"Name":"Imported","MapID":939,"A":{"X":91.898,"Y":0.0,"Z":85.354,"ID":0,"Active":true},"B":{"X":108.234,"Y":0.0,"Z":85.355,"ID":1,"Active":true},"C":{"X":91.951,"Y":0.0,"Z":99.815,"ID":2,"Active":true},"D":{"X":108.077,"Y":0.0,"Z":99.815,"ID":3,"Active":true},"One":{"X":91.702,"Y":0.0,"Z":111.233,"ID":4,"Active":true},"Two":{"X":108.209,"Y":0.0,"Z":111.297,"ID":5,"Active":true},"Three":{"X":99.834,"Y":0.0,"Z":111.352,"ID":6,"Active":true},"Four":{"X":99.817,"Y":0.0,"Z":98.11,"ID":7,"Active":true}}
+```
+
+* P11S
+
+```
+{"Name":"Imported","MapID":941,"A":{"X":100.254,"Y":0.0,"Z":87.109,"ID":0,"Active":true},"B":{"X":112.971,"Y":0.0,"Z":99.939,"ID":1,"Active":true},"C":{"X":99.947,"Y":0.0,"Z":112.982,"ID":2,"Active":true},"D":{"X":87.072,"Y":0.0,"Z":100.008,"ID":3,"Active":true},"One":{"X":109.116,"Y":0.0,"Z":90.811,"ID":4,"Active":true},"Two":{"X":109.233,"Y":0.0,"Z":109.129,"ID":5,"Active":true},"Three":{"X":90.827,"Y":0.0,"Z":109.133,"ID":6,"Active":true},"Four":{"X":90.895,"Y":0.0,"Z":90.816,"ID":7,"Active":true}}
+```
+
+* P12S
+
+```
+{"Name":"Imported","MapID":941,"A":{"X":100.254,"Y":0.0,"Z":87.109,"ID":0,"Active":true},"B":{"X":112.971,"Y":0.0,"Z":99.939,"ID":1,"Active":true},"C":{"X":99.947,"Y":0.0,"Z":112.982,"ID":2,"Active":true},"D":{"X":87.072,"Y":0.0,"Z":100.008,"ID":3,"Active":true},"One":{"X":109.116,"Y":0.0,"Z":90.811,"ID":4,"Active":true},"Two":{"X":109.233,"Y":0.0,"Z":109.129,"ID":5,"Active":true},"Three":{"X":90.827,"Y":0.0,"Z":109.133,"ID":6,"Active":true},"Four":{"X":90.895,"Y":0.0,"Z":90.816,"ID":7,"Active":true}}
+```
+
+* P12S-2(nukemaru)
+
+```
+{"Name":"後半マーカー(ぬけまる)","MapID":943,"A":{"X":98.0,"Y":0.0,"Z":93.0,"ID":0,"Active":true},"B":{"X":102.0,"Y":0.0,"Z":93.0,"ID":1,"Active":true},"C":{"X":102.0,"Y":0.0,"Z":97.0,"ID":2,"Active":true},"D":{"X":98.0,"Y":0.0,"Z":97.0,"ID":3,"Active":true},"One":{"X":98.7,"Y":0.0,"Z":81.3,"ID":4,"Active":true},"Two":{"X":118.7,"Y":0.0,"Z":90.3,"ID":5,"Active":true},"Three":{"X":105.7,"Y":0.0,"Z":101.0,"ID":6,"Active":true},"Four":{"X":94.3,"Y":0.0,"Z":101.0,"ID":7,"Active":true}}
+```
