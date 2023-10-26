@@ -1,4 +1,6 @@
-UMU
+* UMU
+  
+  トリガーは日本語のみ対応
 
 ```
 ~Lv2~{"Name":"イフリート","Group":"UWU","ZoneLockH":[777],"ElementsL":[{"Name":"灼熱デバフ","type":1,"radius":15.0,"color":1191116995,"overlayText":"灼熱","refActorName":"*","refActorRequireBuff":true,"refActorBuffId":[376,1578],"Filled":true},{"Name":"エラプション範囲","type":1,"radius":10.0,"refActorType":1},{"Name":"楔中心のエラプ範囲","type":1,"radius":0.01,"refActorNameIntl":{"Jp":"炎獄の楔"},"includeHitbox":true,"onlyTargetable":true}]}
