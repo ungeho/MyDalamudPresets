@@ -5,7 +5,7 @@
   必要なものをオンにして使ってください。
 
 ```
-~Lv2~{"Name":"General","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"ElementsL":[{"Name":"Selfdot","type":1,"radius":0.0,"color":3372154892,"thicc":2.2,"refActorComparisonType":3,"refActorType":1},{"Name":"灼熱","type":1,"radius":15.0,"color":1191116995,"overlayText":"灼熱","refActorName":"*","refActorRequireBuff":true,"refActorBuffId":[376,1578],"Filled":true}]}
+~Lv2~{"Name":"General","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"ElementsL":[{"Name":"Selfdot","type":1,"Enabled":false,"radius":0.0,"color":3372154892,"thicc":2.2,"refActorComparisonType":3,"refActorType":1},{"Name":"灼熱","type":1,"radius":15.0,"color":1191116995,"overlayText":"灼熱","refActorName":"*","refActorRequireBuff":true,"refActorBuffId":[376,1578],"Filled":true}]}
 ~Lv2~{"Name":"ガルーダ","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"ElementsL":[{"Name":"スパイニー（ドーム）","type":1,"radius":6.5,"thicc":4.0,"refActorNPCNameID":2091,"refActorComparisonType":6,"onlyTargetable":true,"onlyVisible":true},{"Name":"スリップストリーム","type":4,"radius":15.0,"coneAngleMin":-60,"coneAngleMax":60,"color":3356884736,"refActorNameIntl":{"Jp":"ガルーダ"},"refActorRequireCast":true,"refActorCastId":[659,1382,11091,16523,25837,29669],"FillStep":5.0,"includeRotation":true,"onlyTargetable":true,"onlyVisible":true,"Filled":true}]}
 ~Lv2~{"Name":"ガルーダ(フェザーレイン)","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"DCond":5,"ElementsL":[{"Name":"フェザーレイン","type":1,"radius":3.0,"color":838926140,"refActorPlaceholder":["<1>","<2>","<3>","<4>","<5>","<6>","<7>","<8>"],"refActorComparisonType":5,"includeRotation":true,"Filled":true}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":3.4,"MatchIntl":{"Jp":"はじめようぞ、虫ケラ……"},"MatchDelay":33.6},{"Type":2,"Duration":3.4,"MatchIntl":{"Jp":"はじめようぞ、虫ケラ……"},"MatchDelay":68.6},{"Type":2,"Duration":3.4,"MatchIntl":{"Jp":"もはや殺すのでは足りぬッ！"},"MatchDelay":4.1},{"Type":2,"Duration":3.4,"MatchIntl":{"Jp":"もはや殺すのでは足りぬッ！"},"MatchDelay":16.6},{"Type":2,"Duration":3.4,"MatchIntl":{"Jp":"もはや殺すのでは足りぬッ！"},"MatchDelay":42.1}],"Freezing":true,"FreezeFor":3.4}
 ~Lv2~{"Name":"イフリート","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"ElementsL":[{"Name":"灼熱","type":1,"Enabled":false,"radius":15.0,"color":1191116995,"overlayText":"灼熱","refActorName":"*","refActorRequireBuff":true,"refActorBuffId":[376,1578],"Filled":true},{"Name":"楔Hitbox","type":1,"radius":0.0,"refActorNameIntl":{"Jp":"炎獄の楔"},"includeHitbox":true,"onlyTargetable":true,"Filled":true},{"Name":"楔8m","type":1,"radius":8.0,"refActorNameIntl":{"Jp":"炎獄の楔"}}]}
@@ -27,3 +27,18 @@
 ~Lv2~{"Name":"アルテマ爆撃(十字AoE)","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"DCond":5,"ElementsL":[{"Name":"A-C","type":2,"refX":100.0,"refY":80.0,"offX":100.0,"offY":120.0,"radius":5.0},{"Name":"B-D","type":2,"refX":120.0,"refY":100.0,"offX":80.0,"offY":100.0,"radius":5.0}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":4.0,"MatchIntl":{"Jp":"アルテマウェポンの「爆撃の究極幻想」"},"MatchDelay":23.0}]}
 ~Lv2~{"Name":"アルテマ（3蛮神フェーズ:フェザーレイン）","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"Scenes":[6],"DCond":5,"ElementsL":[{"Name":"フェザーレイン","type":1,"radius":3.0,"color":838926140,"refActorPlaceholder":["<1>","<2>","<3>","<4>","<5>","<6>","<7>","<8>"],"refActorComparisonType":5,"includeRotation":true,"Filled":true}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":0.5,"Match":"(1644>11093)","MatchDelay":7.6}],"Freezing":true,"FreezeFor":3.4,"IntervalBetweenFreezes":1.0}
 ```
+
+* General
+
+  * 灼熱
+    ヒーラーに付与される灼熱デバフの範囲を表示
+
+* ガルーダ
+
+  * スパイニー(ドーム)
+
+    スパイニーがドームを出す範囲を表示
+
+  * スリップストリーム
+
+    ヘイト一位対象の詠唱付き扇範囲を表示
