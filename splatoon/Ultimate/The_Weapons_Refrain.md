@@ -30,21 +30,6 @@
 ~Lv2~{"Name":"アルテマ（3蛮神フェーズ:フェザーレイン）","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"Scenes":[6],"DCond":5,"ElementsL":[{"Name":"フェザーレイン","type":1,"radius":3.0,"color":838926140,"refActorPlaceholder":["<1>","<2>","<3>","<4>","<5>","<6>","<7>","<8>"],"refActorComparisonType":5,"includeRotation":true,"Filled":true}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":0.5,"Match":"(1644>11093)","MatchDelay":7.6}],"Freezing":true,"FreezeFor":3.4,"IntervalBetweenFreezes":1.0}
 ```
 
-* フレンド用（上から乱撃（ジェイルのみ）、エーテル波動、3蛮神フェーズ）
-
-```
-~Lv2~{"Name":"アルテマ（乱撃）","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"DCond":5,"ElementsL":[{"Name":"ジェイル","type":1,"radius":0.0,"thicc":4.0,"overlayText":"ジェイル","refActorNameIntl":{"Jp":"グラナイト・ジェイル"},"includeHitbox":true,"tether":true}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":20.0,"MatchIntl":{"Jp":"アルテマウェポンの「乱撃の究極幻想」"}}]}
-```
-
-```
-~Lv2~{"Name":"アルテマ(エーテル波動)","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"DCond":5,"ElementsL":[{"Name":"アルテマ爆雷","type":1,"radius":0.0,"overlayText":"アルテマ爆雷","refActorNPCNameID":2324,"refActorComparisonType":6,"includeHitbox":true},{"Name":"A-B","refX":108.13172,"refY":91.86827,"radius":9.0,"thicc":4.0},{"Name":"A-D","refX":91.86827,"refY":91.86827,"radius":9.0,"thicc":4.0},{"Name":"C-D","refX":91.86827,"refY":108.13173,"radius":9.0,"thicc":4.0},{"Name":"C-B","refX":108.13173,"refY":108.1317,"radius":9.0,"thicc":4.0}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":10.0,"MatchIntl":{"Jp":"アルテマウェポンの「エーテル波動」"}}]}
-```
-
-```
-~Lv2~{"Name":"アルテマ（3蛮神フェーズ）","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"DCond":5,"ElementsL":[{"Name":"イフリート（突進）","type":3,"refY":40.0,"radius":10.0,"color":503356159,"refActorNameIntl":{"Jp":"イフリート"},"refActorRequireCast":true,"refActorCastId":[457,797,1404,1525,1532,1824,11103,11104,11489,11490,11491,11492,11615,18198,23959,24054,25835,28420,29667],"includeRotation":true,"onlyUnTargetable":true},{"Name":"ガルーダ(円->ドーナッツ)","type":1,"radius":8.8,"color":3355508484,"thicc":4.0,"refActorNameIntl":{"Jp":"ガルーダ"},"onlyUnTargetable":true,"onlyVisible":true}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":70.0,"MatchIntl":{"Jp":"アルテマウェポンの「エーテル波動」"},"MatchDelay":10.0}]}
-```
-
-
 
 * ガルーダ
 
