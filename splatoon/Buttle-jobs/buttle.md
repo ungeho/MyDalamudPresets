@@ -24,6 +24,16 @@
 ~Lv2~{"Name":"SCH","Group":"Buttle Jobs","DCond":2,"ElementsL":[{"Name":"Fairy1","type":1,"radius":15.0,"refActorNPCNameID":1398,"refActorComparisonType":6},{"Name":"Fairy2","type":1,"radius":15.0,"refActorNPCNameID":1399,"refActorComparisonType":6}],"JobLock":268435456}
 ```
 
+* AST
+
+  引いたカードのシンボルと配る種類（遠隔or近接）をキャラクターの頭上に表示
+
+  さらに、ドロー可能な場合はドロー可能という情報を追加で表示する。
+
+```
+~Lv2~{"Name":"AST","Group":"Buttle Jobs","ElementsL":[{"Name":"カード：アーゼマの均衡(Melee,Sun)","type":1,"radius":0.0,"overlayTextColor":3355443455,"overlayVOffset":1.7,"thicc":0.0,"overlayText":"Melee(Sun)","refActorRequireBuff":true,"refActorBuffId":[913,3101],"refActorType":1},{"Name":"カード：世界樹の幹(Ranged,Sun)","type":1,"radius":0.0,"overlayTextColor":3355443455,"overlayVOffset":1.7,"thicc":0.0,"overlayText":"Ranged(Sun)","refActorRequireBuff":true,"refActorBuffId":[914,3403],"refActorType":1},{"Name":"カード：オシュオンの矢（Melee,Lunar）","type":1,"radius":0.0,"overlayTextColor":3372220160,"overlayVOffset":1.7,"thicc":0.0,"overlayText":"Melee(Lunar)","refActorRequireBuff":true,"refActorBuffId":[915,3404],"refActorType":1},{"Name":"カード：サリャクの水瓶(Ranged,Lunar)","type":1,"radius":0.0,"overlayTextColor":3372220160,"overlayVOffset":1.7,"thicc":0.0,"overlayText":"Ranged(Lunar)","refActorRequireBuff":true,"refActorBuffId":[917,3102],"refActorType":1},{"Name":"カード：ハルオーネの槍(Melee,Star)","type":1,"radius":0.0,"overlayTextColor":3355508731,"overlayVOffset":1.7,"thicc":0.0,"overlayText":"Melee(Star)","refActorRequireBuff":true,"refActorBuffId":[916],"refActorType":1},{"Name":"カード：ビエルゴの塔(Ranged,Star）","type":1,"radius":0.0,"overlayTextColor":3355508731,"overlayVOffset":1.7,"thicc":0.0,"overlayText":"Ranged(Star)","refActorRequireBuff":true,"refActorBuffId":[918,3103],"refActorType":1},{"Name":"リドロー","type":1,"radius":0.0,"overlayVOffset":2.1,"thicc":0.0,"overlayText":"Redraw","refActorRequireBuff":true,"refActorBuffId":[2713],"refActorType":1}],"JobLock":8589934592}
+```
+
 * Heal Range
 
   幻術士、白魔導士、学者、占星術士、賢者で戦闘時のみ表示
