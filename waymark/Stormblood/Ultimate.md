@@ -6,8 +6,11 @@
 
 * The unending coil of bahamud
 
+* asellog(H3)
+
+
+![asellog(H3)](images/UcobAsellogH3.jpg)
+
 ```
 {"Name":"asellog(H3) marker","MapID":280,"A":{"X":0.0,"Y":0.0,"Z":-9.0,"ID":0,"Active":true},"B":{"X":8.0,"Y":0.0,"Z":4.0,"ID":1,"Active":true},"C":{"X":-8.0,"Y":0.0,"Z":4.0,"ID":2,"Active":true},"D":{"X":10.35,"Y":0.0,"Z":17.927,"ID":3,"Active":true},"One":{"X":17.927,"Y":0.0,"Z":-10.35,"ID":4,"Active":true},"Two":{"X":0.0,"Y":0.0,"Z":8.0,"ID":5,"Active":true},"Three":{"X":-17.927,"Y":0.0,"Z":10.35,"ID":6,"Active":true},"Four":{"X":0.0,"Y":0.0,"Z":0.0,"ID":7,"Active":true}}
 ```
-
-![asellog(H3)](images/UcobAsellogH3.jpg)
