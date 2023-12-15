@@ -42,19 +42,6 @@
 ```
 
 
-<!-- 
-
-公式のプリセットから、恐らく天地の三重奏
-優先度の設定を行う必要がある。
-
-```
-https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood/UCOB%20Heavensfall%20Trio%20Towers.cs
-```
-
-
--->
-
-
 ### ツインタニアフェーズ
 
 * ツインタニア
@@ -210,3 +197,14 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood
 * UCOB Exaflare only first 1-6
 
   公式のプリセット、恐らく最初のエクサの位置
+
+<!-- 
+
+公式のプリセットから、恐らく天地の三重奏
+優先度の設定を行う必要がある。
+
+```
+https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood/UCOB%20Heavensfall%20Trio%20Towers.cs
+```
+
+-->
