@@ -1,4 +1,4 @@
-* The unending coil of bahamud
+## The Unending Coil of Bahamud
 
   [JP]トリガーのセリフや敵の名前は日本語で設定されています。
 

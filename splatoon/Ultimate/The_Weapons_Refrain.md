@@ -1,4 +1,4 @@
-* The Weapon's Refrain
+## The Weapon's Refrain
 
   [JP]トリガーのセリフや敵の名前は日本語で設定されています。
 
@@ -32,6 +32,7 @@
 ~Lv2~{"Name":"アルテマ（3蛮神フェーズ:フェザーレイン）","Group":"The Weapon`s Refrain-Ultimate","ZoneLockH":[777],"Scenes":[6],"DCond":5,"ElementsL":[{"Name":"フェザーレイン","type":1,"radius":3.0,"color":838926140,"refActorPlaceholder":["<1>","<2>","<3>","<4>","<5>","<6>","<7>","<8>"],"refActorComparisonType":5,"includeRotation":true,"Filled":true}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":0.5,"Match":"(1644>11093)","MatchDelay":7.6}],"Freezing":true,"FreezeFor":3.4,"IntervalBetweenFreezes":1.0}
 ```
 
+### ガルーダフェーズ
 
 * ガルーダ
 
@@ -54,6 +55,8 @@
 * ガルーダ(フェザーレイン)
 
   ガルーダフェーズのフェザーレインを鳴き声の0.4秒前にプレイヤーの足元を参考に表示（プレイヤー動いている場合、少しのズレが発生する場合があるがほとんど正確な位置に表示される。）
+
+### イフリートフェーズ
 
 * イフリート
 
@@ -91,6 +94,8 @@
 
   イフリートの直線AoEを表示する。
 
+### タイタンフェーズ
+
 * タイタン(KB)
 
   3連ジェイル前のノックバックされる際の立ち位置の目安を円で表示する。
@@ -120,6 +125,8 @@
   タイタンフェーズにおいて、中央に岩石が設置される際にマップの中心に半径10.5mの円を表示する。
 
   表示された円の外側を走る限り、中央の岩に当たる事はない目安。
+
+### アルテマフェーズ
 
 * アルテマ
 
