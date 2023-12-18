@@ -113,11 +113,13 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood
 
     魔力錬成対象者に移動する魔力圧縮体のHitBoxを表示する。
 
-  * プラメット
+  * プラメット(非表示)
 
     常にツインタニアの前方120度に半径15mの扇範囲を表示する。
 
     プラメットの範囲の目安。（範囲の角度や大きさ、形状は未検証）
+
+    ※必要がなくなった為、オフにしています
 
 * ツイスター（警告）
 
@@ -178,9 +180,11 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood
 
   龍神の加護の詠唱開始からカータライズの終わりまで表示
 
-  * 1~12
+  * 1~12(非表示)
 
     マップの外周に、時計と同じように12時を北として等間隔に数字を表示する。
+
+    ※必要がなくなった為、オフにしています。
 
   * 1/8cut
 
