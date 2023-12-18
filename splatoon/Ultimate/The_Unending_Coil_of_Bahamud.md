@@ -1,5 +1,22 @@
 ## The Unending Coil of Bahamud
 
+### 公式から導入を推奨するプリセット
+
+* [International] [Script] Tank tethers. Shows them more visible and changes color based on whether it's taken by a tank or not.
+
+  プライムフェーズでのタンクの線取りに有効
+
+  タンクが線を取っているときは線対象に緑の線を表示される。
+
+  タンク以外が線を取っているときは線対象に赤い線が表示される。
+
+```
+https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood/UCOB%20Tethers.cs
+```
+
+
+### The Unending Coil of Bahamud
+
   [JP]トリガーのセリフや敵の名前は日本語で設定されています。
 
   必要なものをオンにして使ってください。
