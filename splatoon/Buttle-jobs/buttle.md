@@ -4,7 +4,7 @@
 
   * HitBox
 
-    自身を中心にdotを表示（当たり判定の目安)
+    自身を中心にdotを表示(当たり判定の目安)
 
   * 6mAoE
 
@@ -13,6 +13,18 @@
 ```
 ~Lv2~{"Name":"General","Group":"Buttle Jobs","DCond":1,"ElementsL":[{"Name":"HitBox","type":1,"radius":0.0,"color":3355508515,"thicc":2.2,"refActorType":1},{"Name":"6mAoE","type":1,"radius":6.0,"color":3355508515,"thicc":0.2,"refActorType":1}]}
 ```
+
+* Melee
+
+  * LB Range
+
+    近接LBのレンジを表示する
+
+```
+~Lv2~{"Name":"Melee LB Range","Group":"Buttle Jobs","DCond":2,"ElementsL":[{"Name":"LB Range","type":1,"radius":8.5,"color":3355481343,"refActorType":2,"includeHitbox":true}],"JobLock":568551538708}
+```
+
+
 
 * SCH
 
