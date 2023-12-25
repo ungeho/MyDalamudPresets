@@ -41,7 +41,7 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood
   最後に、`Close and save configration`を押して設定を保存する。
 
 ```
-<https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood/UCOB%20Heavensfall%20Trio%20Towers.cs>
+https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood/UCOB%20Heavensfall%20Trio%20Towers.cs
 ```
 
 
