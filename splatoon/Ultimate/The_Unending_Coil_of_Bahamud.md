@@ -158,7 +158,7 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood
 ~Lv2~{"Name":"金バハ：1stエクサフレア予兆6","Group":"The Unending Coil of Bahamud-Ultimate","ZoneLockH":[733],"DCond":5,"ElementsL":[{"Name":"1stエクサフレア予兆6","type":1,"offY":40.0,"radius":6.0,"color":1342242815,"refActorNPCNameID":3210,"refActorRequireCast":true,"refActorCastId":[9968],"refActorUseCastTime":true,"refActorCastTimeMax":0.25,"refActorComparisonType":6,"includeRotation":true,"Filled":true}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":3.0,"Match":"(3210>9967)"}],"Freezing":true,"FreezeFor":11.7,"IntervalBetweenFreezes":0.5}
 ```
 
-
+<!-- 
 ### ツインタニアフェーズ
 
 * ツインタニア
@@ -318,14 +318,4 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood
 * UCOB Exaflare only first 1-6
 
   公式のプリセット、恐らく最初のエクサの位置
-
-<!-- 
-
-公式のプリセットから、恐らく天地の三重奏
-優先度の設定を行う必要がある。
-
-```
-https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood/UCOB%20Heavensfall%20Trio%20Towers.cs
-```
-
--->
+ -->
