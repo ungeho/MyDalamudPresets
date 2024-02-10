@@ -1,9 +1,8 @@
-# Eureka Orthos Mobs
+# Eureka Orthos Mobs  
+下記のリンクからまとめてインポートする事も出来ます。  
+[Eureka-Orthos SplatoonPreset](Eureka-Orthos.md)  
 
-[Eureka-Orthos SplatoonPreset](Eureka-Orthos.md)
-
-※過去に何か勘違いしてドーナツ範囲を塗りつぶしにしてました。申し訳ありません。
-※修正しました。
+※過去に何か勘違いしてドーナツ範囲を塗りつぶしにしてました。現在は修正済みです。申し訳ありません。
 
 視覚感知:緑
 
