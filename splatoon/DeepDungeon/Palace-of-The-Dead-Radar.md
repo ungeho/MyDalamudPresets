@@ -1,4 +1,6 @@
-# Palace of The Dead Radar
+# Palace of The Dead Radar  
+下記のリンクからまとめてインポートする事も出来ます。  
+[Eureka-Orthos SplatoonPreset](Palace-of-The-Dead.md)  
 
   全ての階で表示される。
 

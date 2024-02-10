@@ -1,4 +1,6 @@
-# Eureka Orthos Radar
+# Eureka Orthos Radar  
+下記のリンクからまとめてインポートする事も出来ます。  
+[Eureka-Orthos SplatoonPreset](Eureka-Orthos.md)  
 
 宝箱や転移、ExMob
 

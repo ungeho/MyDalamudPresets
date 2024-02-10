@@ -1,4 +1,6 @@
-# Heaven on High Radar
+# Heaven on High Radar  
+下記のリンクからまとめてインポートする事も出来ます。  
+[Eureka-Orthos SplatoonPreset](Heaven-on-High.md)  
 
   全ての階で表示される。
 
