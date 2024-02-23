@@ -1,7 +1,11 @@
-## Sil'dihn Subterrane  
-    [JP]トリガーのセリフや敵の名前は日本語で設定されています。  
-    異聞シラディハ水道のプリセット  
-    ほぼ全部他のプリセットを寄せ集めて少し修正したもの  
+## Sil'dihn Subterrane
+
+
+    [JP]トリガーのセリフや敵の名前は日本語で設定されています。
+
+    異聞シラディハ水道のプリセット
+
+    ほぼ全部他のプリセットを寄せ集めて少し修正したもの
 
 ```
 ~Lv2~{"Name":"アクアダクト・ベラドンナ","Group":"Criterion-Another Sil'dihn Subterrane","ZoneLockH":[1075,1076],"ElementsL":[{"Name":"アトロピンスポア","type":1,"radius":9.0,"Donut":20.0,"color":1677764607,"thicc":5.0,"refActorNPCNameID":11514,"refActorRequireCast":true,"refActorCastId":[5215,12415,30041,31072,31096],"FillStep":2.0,"refActorComparisonType":6},{"Name":"デラシネーター","type":1,"radius":0.0,"thicc":0.0,"overlayText":"タンク強","refActorNPCNameID":11514,"refActorRequireCast":true,"refActorCastId":[5219,8710,10581,16231,18723,21184,31074,31098,32408],"refActorComparisonType":6}]}
