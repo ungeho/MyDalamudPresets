@@ -1,15 +1,13 @@
 ## Sil'dihn Subterrane
 
 
-    [JP]トリガーのセリフや敵の名前は日本語で設定されています。
+[JP]トリガーのセリフや敵の名前は日本語で設定されています。
 
-    異聞シラディハ水道のプリセット
+異聞シラディハ水道のプリセット
 
-    ほぼ全部他のプリセットを寄せ集めて少し修正したもの
+ほぼ全部他のプリセットを寄せ集めて少し修正したもの
 
-
-
-
+  
 ```
 ~Lv2~{"Name":"アクアダクト・ベラドンナ","Group":"Criterion-Another Sil'dihn Subterrane","ZoneLockH":[1075,1076],"ElementsL":[{"Name":"アトロピンスポア","type":1,"radius":9.0,"Donut":20.0,"color":1677764607,"thicc":5.0,"refActorNPCNameID":11514,"refActorRequireCast":true,"refActorCastId":[5215,12415,30041,31072,31096],"FillStep":2.0,"refActorComparisonType":6},{"Name":"デラシネーター","type":1,"radius":0.0,"thicc":0.0,"overlayText":"タンク強","refActorNPCNameID":11514,"refActorRequireCast":true,"refActorCastId":[5219,8710,10581,16231,18723,21184,31074,31098,32408],"refActorComparisonType":6}]}
 ~Lv2~{"Name":"アクアダクト・ドライアド","Group":"Criterion-Another Sil'dihn Subterrane","ZoneLockH":[1075,1076],"ElementsL":[{"Name":"アーボリアルストーム","type":1,"radius":12.0,"color":838909951,"refActorNPCNameID":11513,"refActorRequireCast":true,"refActorCastId":[441,2741,3191,5003,5437,13531,31063,31087],"refActorComparisonType":6,"includeRotation":true,"Filled":true}]}
