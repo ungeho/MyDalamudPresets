@@ -4,7 +4,7 @@
 
 * Splatoon公式から、エレクトロープ2回目のスクリプト  
     お好みで`歯車マーク`を押して  
-    `Configuration`タブの`Add 1 to long debuff bearers`と`Resolve safe spots`にチェック  
+    `Configuration`タブの`Resolve safe spots`にチェック  
     `2 shot / 1long`（デバフ4マス）と`3short / 2long`(デバフ9マス)の時の自身の行き先を設定。  
     その後、`Close and save configuration`を押して閉じる。
 
