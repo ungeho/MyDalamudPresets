@@ -27,6 +27,20 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/
 https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/R4S%20Midnight%20Sabbath.cs
 ```
 
+* Splatoon公式から、チェインライトニングAoE表示スクリプト
+
+```
+https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/R4S%20Chain%20Lightning.cs
+```
+
+*Splatoon公式から、日出スクリプト
+
+`歯車マーク`を押して`Configuration`タブからAoEの表示秒数、担当のタワーの方角、ビーム誘導（時計回りor反時計回り）を設定する。
+
+
+```
+https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/R4S%20Sunrise%20Sabbath.cs
+```
 
 
 ### Preset
