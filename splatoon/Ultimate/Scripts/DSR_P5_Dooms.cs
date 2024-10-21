@@ -17,7 +17,7 @@ using System.Linq;
 using System.Numerics;
 
 
-namespace SplatoonScriptsUnOfficial.Duties.Endwalker
+namespace Splatoon.Ultimate.Scripts
 {
     public class DSR_P5_Dooms : SplatoonScript
     {
