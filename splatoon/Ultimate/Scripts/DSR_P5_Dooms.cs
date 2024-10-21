@@ -17,9 +17,9 @@ using System.Linq;
 using System.Numerics;
 
 
-namespace Scripts
+namespace aaaaa
 {
-    public class DSR_P5_Dooms : Scripts;
+    public class DSR_P5_Dooms : aaaaa;
     {
         // エリア(絶竜詩)
         public override HashSet<uint> ValidTerritories => new() { 968 };
