@@ -19,7 +19,7 @@ using System.Numerics;
 
 namespace Scripts
 {
-    public class DSR_P5_Dooms : Scripts
+    public class DSR_P5_Dooms : Scripts;
     {
         // エリア(絶竜詩)
         public override HashSet<uint> ValidTerritories => new() { 968 };
@@ -211,7 +211,7 @@ namespace Scripts
                     //DuoLog.Information($"has {doom.Count()} dooms ");
                 }
                 //ゲリックとの相対的な位置から、重みづけされた要素を基準に、宣告と無職の番号を振る
-                //つまり、優先度によって並び替えられた番号を振る。
+                //優先度によって並び替えられた番号を振る。
                 foreach (var p in plrs.OrderBy(x => x.Key))
                 {
                     //DuoLog.Information($"{p.Value.Name}");
