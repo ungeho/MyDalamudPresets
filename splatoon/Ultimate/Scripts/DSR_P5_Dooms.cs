@@ -17,9 +17,9 @@ using System.Linq;
 using System.Numerics;
 
 
-namespace Splatoon.Ultimate.Scripts
+namespace Scripts
 {
-    public class DSR_P5_Dooms : SplatoonScript
+    public class DSR_P5_Dooms : Scripts
     {
         // エリア(絶竜詩)
         public override HashSet<uint> ValidTerritories => new() { 968 };
