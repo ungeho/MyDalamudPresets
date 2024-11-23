@@ -300,4 +300,5 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 （多分攻略法はリリードール）  
 死刻フェーズで優先度が真ん中の人や、邪念の炎など、お好みで導入するとより楽になるかもしれません。  
 下記のURLのスクリプトのソースを選択、rawにして、urlをコピー、その後scriptをクリップボードからインストールを行うと導入できます。  
+導入後は、優先度の設定などお忘れなく  
 [https://github.com/PunishXIV/Splatoon/tree/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise](https://github.com/PunishXIV/Splatoon/tree/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise  "公式の竜詩スクリプト")  
