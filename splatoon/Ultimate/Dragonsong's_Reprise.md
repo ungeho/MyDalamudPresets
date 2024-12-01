@@ -1,6 +1,6 @@
 ## Dragonsong's Reprise
 
-最終更新日：2024-11-23 17:12:58
+最終更新日：2024-12-01 19:22:55
 
 [JP/EN]トリガーや敵の名前、キャストID等の設定は英語と日本語に対応しています。  
 ※ただし、表示されるメッセージは日本語である事に注意してください。  
@@ -52,7 +52,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 ```
 
 * 優先度設定  
-  導入後、`Priority Listを`設定（上がニーズ,西側）  
+  導入後、`Priority List`を設定（上がニーズ,西側）  
   PTメンバーが全員同じフィールドにいる場合にのみ、下記のように優先度の設定が可能。  
   野良の場合の設定例  ：コンテンツ進入後、`Select from party`から、PTメンバーの名前を選択して優先度を適宜設定。  
   固定の場合の設定例  ：予め`option`タグで、ジョブの優先度を設定。  
