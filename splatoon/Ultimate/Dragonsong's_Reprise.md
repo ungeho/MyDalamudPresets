@@ -71,7 +71,7 @@ UIの位置を調節できるようになった為、導入推奨。
 
 #### DSR Toolbox
 
-  DSR Toolbox の Eye Locator と Chain Tether については、類似した機能がPreset内にあります。  
+  `DSR Toolbox`の`Eye Locator`と`Chain Tether`については、類似した機能がPreset内にあります。  
 
 ### Preset
 
