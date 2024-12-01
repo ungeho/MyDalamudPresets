@@ -46,17 +46,18 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 #### P6 Wroth Flames
 
 公式の邪念の炎の優先度プリセット  
-以下のURLから導入。  
+
 ```
 https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise/P6%20Wroth%20Flames.cs
 ```
-・ 優先度設定  
+
+* 優先度設定  
   導入後、Priority Listを設定（上がニーズ,西側）  
   PTメンバーが全員同じフィールドにいる場合にのみ、下記のように優先度の設定が可能。  
   野良の場合の設定例  ：コンテンツ進入後、Select from partyから、PTメンバーの名前を選択して優先度を適宜設定。  
   固定の場合の設定例  ：予めoptionタグで、ジョブの優先度を設定。  
                       コンテンツ侵入後、Fill by job を押して自動入力。  
-・ 配色設定  
+* 配色設定  
   Bait Colorを設定(単一の色にしたい場合、1と2を同じ色に設定する。)  
 
 ### Lemegeton
@@ -70,7 +71,7 @@ UIの位置を調節できるようになった為、導入推奨。
 
 #### DSR Toolbox
 
-  DSR Toolbox の Eye Locator と Chain Tether については、類似の機能がPreset内にあります。  
+  DSR Toolbox の Eye Locator と Chain Tether については、類似した機能がPreset内にあります。  
 
 ### Preset
 
