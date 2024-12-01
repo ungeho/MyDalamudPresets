@@ -52,13 +52,13 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 ```
 
 * 優先度設定  
-  導入後、Priority Listを設定（上がニーズ,西側）  
+  導入後、`Priority Listを`設定（上がニーズ,西側）  
   PTメンバーが全員同じフィールドにいる場合にのみ、下記のように優先度の設定が可能。  
-  野良の場合の設定例  ：コンテンツ進入後、Select from partyから、PTメンバーの名前を選択して優先度を適宜設定。  
-  固定の場合の設定例  ：予めoptionタグで、ジョブの優先度を設定。  
-                      コンテンツ侵入後、Fill by job を押して自動入力。  
+  野良の場合の設定例  ：コンテンツ進入後、`Select from party`から、PTメンバーの名前を選択して優先度を適宜設定。  
+  固定の場合の設定例  ：予め`option`タグで、ジョブの優先度を設定。  
+                      コンテンツ侵入後、`Fill by job` を押して自動入力。  
 * 配色設定  
-  Bait Colorを設定(単一の色にしたい場合、1と2を同じ色に設定する。)  
+  `Bait Color`を設定(単一の色にしたい場合、1と2を同じ色に設定する。)  
 
 ### Lemegeton
 
