@@ -1,4 +1,4 @@
-## Dragonsong's Reprise
+# Dragonsong's Reprise
 
 最終更新日：2024-12-04 16:04:57
 
@@ -30,9 +30,9 @@
   補足：1個目の隕石の着弾音が2個目の隕石の設置判定。以降もn個目の着弾音がn+1個目の設置判定  
 
 
-### Script
+## Script
 
-#### DSR_P6_Cauterize_Unsafe
+### DSR_P6_Cauterize_Unsafe
 
 公式のスクリプト  
 P6_2天竜フェーズの最後のカータライズで危険な方が塗りつぶされる。  
@@ -43,7 +43,7 @@ P6_2天竜フェーズの最後のカータライズで危険な方が塗りつ�
 https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Endwalker/DSR_P6_Cauterize_Unsafe.cs
 ```
 
-#### P6 AutoTargetSwitcher
+### P6 AutoTargetSwitcher
 
 自動的にターゲット変更  
 多分均等化込みで機能  
@@ -53,7 +53,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 ```
 
 
-#### P6 Wyrmsbreath First
+### P6 Wyrmsbreath First
 
 1回目邪竜の息吹のプリセット  
 
@@ -82,7 +82,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
     `Bait Color`を設定(単一の色にしたい場合、1と2を同じ色に設定する。)  
 
 
-#### P6 Wroth Flames
+### P6 Wroth Flames
 
 公式の邪念の炎の優先度プリセット  
 
@@ -102,6 +102,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
     固定の場合の設定例  ：予め`option`タグで、ジョブの優先度を設定。  
                         コンテンツ侵入後、`Fill by job` を押して自動入力。  
 
+## その他のプラグイン
 
 ### Lemegeton
 
@@ -110,14 +111,9 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 P6の均等化に使用。  
 UIの位置を調節できるようになった為、導入推奨。  
 
-### 導入を推奨しないプラグイン
+## Preset
 
-#### DSR Toolbox
-
-  `DSR Toolbox`の`Eye Locator`と`Chain Tether`については、類似した機能がPreset内にあります。  
-
-### Preset
-
+Presetの導入はこちらから  
 
 ```
 ~Lv2~{"Name":"P2_P5_聖杖_死刻：竜の邪眼","Group":"Ultimate Dragonsong's Reprise","ZoneLockH":[968],"ElementsL":[{"Name":"騎神トールダン","type":1,"radius":0.0,"color":3372155125,"Filled":false,"fillIntensity":0.5,"thicc":8.0,"refActorNPCNameID":3632,"refActorRequireCast":true,"refActorCastId":[4201,5257,21090,25552,25553,35272],"refActorComparisonType":6,"onlyVisible":true,"tether":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0}]}
@@ -358,3 +354,9 @@ UIの位置を調節できるようになった為、導入推奨。
 下記のURLのスクリプトのソースを選択、rawにして、urlをコピー、その後scriptをクリップボードからインストールを行うと導入できます。  
 導入後は、優先度の設定などお忘れなく  
 [https://github.com/PunishXIV/Splatoon/tree/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise](https://github.com/PunishXIV/Splatoon/tree/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise  "公式の竜詩スクリプト")  
+
+# 導入を推奨しないプラグイン
+
+## DSR Toolbox
+
+  `DSR Toolbox`の`Eye Locator`と`Chain Tether`については、類似した機能がPreset内にあります。  
