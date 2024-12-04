@@ -6,7 +6,7 @@
 
 ### DSR_P6_Cauterize_Unsafe
 
-公式のスクリプト  
+公式から、2天フェーズ終盤のカータライズのスクリプト  
 P6_2天竜フェーズの最後のカータライズで危険な方が塗りつぶされる。  
 例1：自分に徐々に凍結デバフが付与されている場合、フレースヴェルグのカータライズ（凍結）を危険エリアとして塗りつぶす。  
 例2：自分に徐々にヒートデバフが付与されている場合、ニーズヘッグのカータライズ（ヒート）を危険エリアとして塗りつぶす。  
@@ -17,7 +17,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 
 ### P6 AutoTargetSwitcher
 
-自動的にターゲット変更  
+公式から、自動的にターゲット変更のスクリプト  
 多分均等化込みで機能  
 
 ```
@@ -27,14 +27,14 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 
 ### P6 Wyrmsbreath First
 
-1回目邪竜の息吹のプリセット  
+公式から、1回目邪竜の息吹のスクリプト  
 
 ```
 https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise/P6%20Wyrmsbreath%20First.cs
 ```
 
 
-* スクリプトの設定
+* スクリプトの設定  
   * 調整役の設定(Character List)  
     調整役は同じポジションの中で上に配置する。  
     リリードールのマクロでは、調整役はH2、D2、D3なので以下のようになる。  
@@ -56,7 +56,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 
 ### P6 Wroth Flames
 
-公式の邪念の炎の優先度プリセット  
+公式から、邪念の炎の優先度スクリプト  
 
 ```
 https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise/P6%20Wroth%20Flames.cs
