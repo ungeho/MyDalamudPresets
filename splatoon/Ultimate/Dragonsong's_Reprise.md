@@ -47,20 +47,25 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 
 1回目邪竜の息吹のプリセット  
 
+```
+https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise/P6%20Wyrmsbreath%20First.cs
+```
+
+
 * スクリプトの設定
   * 調整役の設定(Character List)  
     調整役は同じポジションの中で上に配置する。  
     リリードールのマクロでは、調整役はH2、D2、D3なので以下のようになる。  
-| Character List | Role | Position |
-| ---- | ---- | ---- |
-| Character 1 | MT | UpperLeft |
-| Character 2 | ST | UpperRight |
-| Character 3 | D2 | TriangleUpper |
-| Character 4 | D1 | TriangleUpper |
-| Character 5 | D3 | TriangleLowerLeft |
-| Character 6 | H1 | TriangleLowerLeft |
-| Character 7 | H2 | TriangleLowerRight |
-| Character 8 | D4 | TriangleLowerRight |
+    | Character List | Role | Position |  
+    | ---- | ---- | ---- |  
+    | Character 1 | MT | UpperLeft |  
+    | Character 2 | ST | UpperRight |  
+    | Character 3 | D2 | TriangleUpper |  
+    | Character 4 | D1 | TriangleUpper |  
+    | Character 5 | D3 | TriangleLowerLeft |  
+    | Character 6 | H1 | TriangleLowerLeft |  
+    | Character 7 | H2 | TriangleLowerRight |  
+    | Character 8 | D4 | TriangleLowerRight |  
   * その他  
     `Swap if needed`にチェック  
     `Bait Color`を設定(単一の色にしたい場合、1と2を同じ色に設定する。)  
