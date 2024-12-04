@@ -56,6 +56,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
   * 調整役の設定(Character List)  
     調整役は同じポジションの中で上に配置する。  
     リリードールのマクロでは、調整役はH2、D2、D3なので以下のようになる。  
+    楽な入力例については、邪念の炎のスクリプト設定例を参照。  
     | Character List | Role | Position |  
     | ---- | ---- | ---- |  
     | Character 1 | MT | UpperLeft |  
