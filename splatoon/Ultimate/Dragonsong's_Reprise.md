@@ -42,14 +42,14 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
     楽な入力例については、邪念の炎のスクリプト設定例を参照。  
     | Character List | Role | Position |  
     | ---- | ---- | ---- |  
-    | Character 1 | MT | UpperLeft |  
-    | Character 2 | ST | UpperRight |  
-    | Character 3 | D2 | TriangleUpper |  
-    | Character 4 | D1 | TriangleUpper |  
-    | Character 5 | D3 | TriangleLowerLeft |  
-    | Character 6 | H1 | TriangleLowerLeft |  
-    | Character 7 | H2 | TriangleLowerRight |  
-    | Character 8 | D4 | TriangleLowerRight |  
+    | Character 1 | MT(Character Name) | UpperLeft |  
+    | Character 2 | ST(Character Name) | UpperRight |  
+    | Character 3 | D2(Character Name) | TriangleUpper |  
+    | Character 4 | D1(Character Name) | TriangleUpper |  
+    | Character 5 | D3(Character Name) | TriangleLowerLeft |  
+    | Character 6 | H1(Character Name) | TriangleLowerLeft |  
+    | Character 7 | H2(Character Name) | TriangleLowerRight |  
+    | Character 8 | D4(Character Name) | TriangleLowerRight |  
   * その他  
     `Swap if needed`にチェック  
     `Bait Color`を設定(単一の色にしたい場合、1と2を同じ色に設定する。)  
@@ -77,14 +77,14 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
     リリードールのマクロ優先度では、以下のようになる。  
         | Character List | Role |  
     | ---- | ---- |  
-    | Character 1 | MT |  
-    | Character 2 | ST |  
-    | Character 3 | D1 |  
-    | Character 4 | D2 |  
-    | Character 5 | D3 |  
-    | Character 6 | D4 |  
-    | Character 7 | H1 |  
-    | Character 8 | H2 |  
+    | Character 1 | MT(Character Name) |  
+    | Character 2 | ST(Character Name) |  
+    | Character 3 | D1(Character Name) |  
+    | Character 4 | D2(Character Name) |  
+    | Character 5 | D3(Character Name) |  
+    | Character 6 | D4(Character Name) |  
+    | Character 7 | H1(Character Name) |  
+    | Character 8 | H2(Character Name) |  
 
 ## その他のプラグイン
 
