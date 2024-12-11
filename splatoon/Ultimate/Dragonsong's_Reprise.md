@@ -74,6 +74,17 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
     野良の場合の設定例  ：コンテンツ進入後、`Select from party`から、PTメンバーの名前を選択して優先度を適宜設定。  
     固定の場合の設定例  ：予め`option`タグで、ジョブの優先度を設定。  
                         コンテンツ侵入後、`Fill by job` を押して自動入力。  
+    リリードールのマクロ優先度では、以下のようになる。  
+        | Character List | Role |  
+    | ---- | ---- |  
+    | Character 1 | MT |  
+    | Character 2 | ST |  
+    | Character 3 | D1 |  
+    | Character 4 | D2 |  
+    | Character 5 | D3 |  
+    | Character 6 | D4 |  
+    | Character 7 | H1 |  
+    | Character 8 | H2 |  
 
 ## その他のプラグイン
 
