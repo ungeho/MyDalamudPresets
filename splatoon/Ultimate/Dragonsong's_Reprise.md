@@ -40,7 +40,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
     調整役は同じポジションの中で上に配置する。  
     リリードールのマクロでは、調整役はH2、D2、D3なので以下のようになる。  
     楽な入力例については、邪念の炎のスクリプト設定例を参照。  
-    ※入力するのはキャラクター名  例：`Hogege hoge` である点に注意してください。  
+    ※入力するのはキャラクター名  例：`Hoge Fuga` である点に注意してください。  
     | Character List | Role | Position |  
     | ---- | ---- | ---- |  
     | Character 1 | MT (Character Name) | UpperLeft |  
@@ -76,7 +76,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
     固定の場合の設定例  ：予め`option`タグで、ジョブの優先度を設定。  
                         コンテンツ侵入後、`Fill by job` を押して自動入力。  
     リリードールのマクロ優先度では、以下のようになる。  
-    ※入力するのはキャラクター名  例：`Hogege hoge` である点に注意してください。  
+    ※入力するのはキャラクター名  例：`Hoge Fuga` である点に注意してください。  
         | Character List | Role |  
     | ---- | ---- |  
     | Character 1 | MT (Character Name) |  
