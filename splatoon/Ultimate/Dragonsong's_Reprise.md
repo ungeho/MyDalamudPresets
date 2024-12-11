@@ -1,7 +1,6 @@
 # Dragonsong's Reprise
 
-最終更新日：2024-12-06 13:11:45
-
+最終更新日：2024-12-11 11:06:13
 ## Script
 
 ### DSR_P6_Cauterize_Unsafe
