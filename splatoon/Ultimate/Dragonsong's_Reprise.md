@@ -77,14 +77,14 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
     リリードールのマクロ優先度では、以下のようになる。  
         | Character List | Role |  
     | ---- | ---- |  
-    | Character 1 | MT (Character Name) |  
-    | Character 2 | ST (Character Name) |  
-    | Character 3 | D1 (Character Name) |  
-    | Character 4 | D2 (Character Name) |  
-    | Character 5 | D3 (Character Name) |  
-    | Character 6 | D4 (Character Name) |  
-    | Character 7 | H1 (Character Name) |  
-    | Character 8 | H2 (Character Name) |  
+    | Character 1 | MT - (Character Name) |  
+    | Character 2 | ST - (Character Name) |  
+    | Character 3 | D1 - (Character Name) |  
+    | Character 4 | D2 - (Character Name) |  
+    | Character 5 | D3 - (Character Name) |  
+    | Character 6 | D4 - (Character Name) |  
+    | Character 7 | H1 - (Character Name) |  
+    | Character 8 | H2 - (Character Name) |  
 
 ## その他のプラグイン
 
