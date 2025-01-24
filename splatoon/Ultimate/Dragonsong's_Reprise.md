@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 ### P6 AutoTargetSwitcher
 
 公式から、自動的にターゲット変更のスクリプト  
-多分均等化込みで機能  
+均等化込みで機能  
 
 ```
 https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise/P6%20AutoTargetSwitcher.cs
