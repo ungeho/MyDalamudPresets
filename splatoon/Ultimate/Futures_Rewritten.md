@@ -289,7 +289,7 @@ public class P1_Fall_of_Faith : SplatoonScript
 
 * スクリプトの設定(Configuration)  
   * General  
-  Tether1~4 Directionは線の1~4番目についた人が行く方角  
+  Tether1-4 Directionは線の1～4番目についた人が行く方角  
   NoTether12Directionは、整列した上で線が付かなかった人が行く方角  
     * 新リリドの場合の設定例  
     | 方角 | 役割 |  
@@ -387,37 +387,39 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/
   * 優先度と自分が入る塔の設定  
   公式でわかりやすく説明されている為、それをそのまま引用。  
   ※H2D4調整で下記の場合の設定例  
-  優先度  
-  ```  
-  T1 T2 H1 H2
-  D1 D2 D3 D4
-  ```  
-  設定例  
-  ```
-  T1 - Put No name 
-  0 = NW // 1 = None // 2 = None
-  
-  T2 - Put T1 name
-  0 = S // 1 = NW // 2 = None
-  
-  H1 - T1 > T2
-  0 = NE // 1 = S // 2 =  NW
-  
-  H2 -T1 > T2 > H1
-  0 = SW // 1 = NE // 2 = S
-  --------------------------
-  D1 - Put no name
-  0 = SE // 1 = None // 2 = None
-  
-  D2 - Put D1 name
-  0 = N // 1 = SE // 2 = None
-  
-  D3- D1 > D2
-   0 = SW // 1 = N // 2 = SE
-  
-  D4 -  D1 > D2 > D3
-  0 = NE// 1=  SW -// 2 = N
-  ```
+
+
+優先度  
+```  
+T1 T2 H1 H2
+D1 D2 D3 D4
+```  
+設定例  
+```
+T1 - Put No name 
+0 = NW // 1 = None // 2 = None
+
+T2 - Put T1 name
+0 = S // 1 = NW // 2 = None
+
+H1 - T1 > T2
+0 = NE // 1 = S // 2 =  NW
+
+H2 -T1 > T2 > H1
+0 = SW // 1 = NE // 2 = S
+--------------------------
+D1 - Put no name
+0 = SE // 1 = None // 2 = None
+
+D2 - Put D1 name
+0 = N // 1 = SE // 2 = None
+
+D3- D1 > D2
+ 0 = SW // 1 = N // 2 = SE
+
+D4 -  D1 > D2 > D3
+0 = NE// 1=  SW -// 2 = N
+```
 
 
 ## Layout
