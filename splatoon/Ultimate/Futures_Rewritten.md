@@ -1,6 +1,9 @@
 # Futures Rewritten  
 
-最終更新日：  
+
+調整中  
+
+最終更新日：----  
 
 ## Script  
 
@@ -16,6 +19,7 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 ## P1 Fall of Faith  
 
 公式のシンソイルセヴァーのスクリプトの移動先の座標を、タゲサ上になるように変更したもの。  
+要設定  
 
 ```
 using System.Collections.Generic;
@@ -307,6 +311,7 @@ public class P1_Fall_of_Faith : SplatoonScript
 ## P2 Diamond Dust  
 
 公式から、ダイヤモンドダストのスクリプト  
+要設定  
 
 ```
 https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/The%20Futures%20Rewritten/P2%20Diamond%20Dust.cs
@@ -330,16 +335,89 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/
   * Knockback  
   自分がノックバック担当になる方角を全て入力（通常、4つチェックする。）  
   * BaitColor  
+    お好みで  
     Color1,2 `#00FF00FF`  
   * Predict Bait  
     Show Predict Baitにチェック  
+    お好みで  
     Color `#00FF00FF`  
 * スクリプトの設定(Registered Element)  
-  下記をコピーして、Ctrlを押しながら`Import custmized setting from clipboard`  
+  お好みで  
+  下記をコピーして、Ctrlを押しながら`Import custmized setting from clipboard`を左クリック  
 ```
 {"Elements":{"Bait":{"Name":"","type":0,"Enabled":false,"refX":0.0,"refY":0.0,"refZ":0.0,"offX":0.0,"offY":0.0,"offZ":0.0,"radius":3.0,"color":4278255389,"Filled":false,"fillIntensity":0.5,"overlayBGColor":1879048192,"overlayTextColor":3372220415,"overlayVOffset":0.0,"overlayFScale":1.0,"overlayPlaceholders":false,"thicc":6.0,"overlayText":"","refActorName":"","refActorTargetingYou":0,"refActorNamePlateIconID":0,"refActorComparisonAnd":false,"refActorRequireCast":false,"refActorCastReverse":false,"refActorUseCastTime":false,"refActorCastTimeMin":0.0,"refActorCastTimeMax":0.0,"refActorUseOvercast":false,"refTargetYou":false,"refActorRequireBuff":false,"refActorRequireAllBuffs":false,"refActorRequireBuffsInvert":false,"refActorUseBuffTime":false,"refActorUseBuffParam":false,"refActorBuffTimeMin":0.0,"refActorBuffTimeMax":0.0,"refActorObjectLife":false,"refActorComparisonType":0,"refActorType":0,"includeHitbox":false,"includeOwnHitbox":false,"includeRotation":false,"onlyTargetable":false,"onlyUnTargetable":false,"onlyVisible":false,"tether":true,"ExtraTetherLength":0.0,"LineEndA":0,"LineEndB":0,"AdditionalRotation":0.0,"LineAddHitboxLengthX":false,"LineAddHitboxLengthY":false,"LineAddHitboxLengthZ":false,"LineAddHitboxLengthXA":false,"LineAddHitboxLengthYA":false,"LineAddHitboxLengthZA":false,"LineAddPlayerHitboxLengthX":false,"LineAddPlayerHitboxLengthY":false,"LineAddPlayerHitboxLengthZ":false,"LineAddPlayerHitboxLengthXA":false,"LineAddPlayerHitboxLengthYA":false,"LineAddPlayerHitboxLengthZA":false,"FaceMe":false,"LimitDistance":false,"LimitDistanceInvert":false,"DistanceSourceX":0.0,"DistanceSourceY":0.0,"DistanceSourceZ":0.0,"DistanceMin":0.0,"DistanceMax":0.0,"LimitRotation":false,"refActorTether":false,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"refActorTetherParam1":null,"refActorTetherParam2":null,"refActorTetherParam3":null,"refActorIsTetherSource":null,"refActorIsTetherInvert":false,"refActorUseTransformation":false,"mechanicType":0,"refMark":false,"refMarkID":0,"faceplayer":"<1>","FillStep":0.5,"LegacyFill":false,"RenderEngineKind":0},"Predict":{"Name":"","type":0,"Enabled":false,"refX":0.0,"refY":0.0,"refZ":0.0,"offX":0.0,"offY":0.0,"offZ":0.0,"radius":3.0,"color":4278255389,"Filled":false,"fillIntensity":0.39215687,"overlayBGColor":1879048192,"overlayTextColor":3372220415,"overlayVOffset":0.0,"overlayFScale":1.0,"overlayPlaceholders":false,"thicc":6.0,"overlayText":"","refActorName":"","refActorTargetingYou":0,"refActorNamePlateIconID":0,"refActorComparisonAnd":false,"refActorRequireCast":false,"refActorCastReverse":false,"refActorUseCastTime":false,"refActorCastTimeMin":0.0,"refActorCastTimeMax":0.0,"refActorUseOvercast":false,"refTargetYou":false,"refActorRequireBuff":false,"refActorRequireAllBuffs":false,"refActorRequireBuffsInvert":false,"refActorUseBuffTime":false,"refActorUseBuffParam":false,"refActorBuffTimeMin":0.0,"refActorBuffTimeMax":0.0,"refActorObjectLife":false,"refActorComparisonType":0,"refActorType":0,"includeHitbox":false,"includeOwnHitbox":false,"includeRotation":false,"onlyTargetable":false,"onlyUnTargetable":false,"onlyVisible":false,"tether":true,"ExtraTetherLength":0.0,"LineEndA":0,"LineEndB":0,"AdditionalRotation":0.0,"LineAddHitboxLengthX":false,"LineAddHitboxLengthY":false,"LineAddHitboxLengthZ":false,"LineAddHitboxLengthXA":false,"LineAddHitboxLengthYA":false,"LineAddHitboxLengthZA":false,"LineAddPlayerHitboxLengthX":false,"LineAddPlayerHitboxLengthY":false,"LineAddPlayerHitboxLengthZ":false,"LineAddPlayerHitboxLengthXA":false,"LineAddPlayerHitboxLengthYA":false,"LineAddPlayerHitboxLengthZA":false,"FaceMe":false,"LimitDistance":false,"LimitDistanceInvert":false,"DistanceSourceX":0.0,"DistanceSourceY":0.0,"DistanceSourceZ":0.0,"DistanceMin":0.0,"DistanceMax":0.0,"LimitRotation":false,"refActorTether":false,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"refActorTetherParam1":null,"refActorTetherParam2":null,"refActorTetherParam3":null,"refActorIsTetherSource":null,"refActorIsTetherInvert":false,"refActorUseTransformation":false,"mechanicType":0,"refMark":false,"refMarkID":0,"faceplayer":"<1>","FillStep":0.5,"LegacyFill":false,"RenderEngineKind":0}}}
 ```
 
+## P2 Mirror Mirror  
+
+公式から、鏡の国のプリセット  
+要設定  
+```
+https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/The%20Futures%20Rewritten/P2%20Mirror%20Mirror.cs
+```
+
+* スクリプトの設定(Configuration)  
+  * General  
+  扇誘導をするときの、担当の位置を選択する  
+    *  First Action  
+    最初の扇誘導の担当位置。  
+    新リリドの場合、近接は`OppositeBlueMirror`、遠隔は`BlueMirror`に設定。  
+    *  Clockwise  
+    赤鏡への距離が等しい時の担当位置を設定  
+    ※赤鏡への距離が等しくない場合、近い赤鏡に誘導される。  
+    新リリドの場合、`Clockwise`に設定
+* スクリプトの設定(Registered Element)  
+  お好みで  
+```
+{"Elements":{"Bait":{"Name":"","type":0,"Enabled":true,"refX":0.0,"refY":0.0,"refZ":0.0,"offX":87.27208,"offY":112.72792,"offZ":0.0,"radius":2.0,"color":3355639552,"Filled":false,"fillIntensity":0.5,"overlayBGColor":1879048192,"overlayTextColor":3372220415,"overlayVOffset":0.0,"overlayFScale":1.0,"overlayPlaceholders":false,"thicc":6.0,"overlayText":"","refActorName":"","refActorTargetingYou":0,"refActorNamePlateIconID":0,"refActorComparisonAnd":false,"refActorRequireCast":false,"refActorCastReverse":false,"refActorUseCastTime":false,"refActorCastTimeMin":0.0,"refActorCastTimeMax":0.0,"refActorUseOvercast":false,"refTargetYou":false,"refActorRequireBuff":false,"refActorRequireAllBuffs":false,"refActorRequireBuffsInvert":false,"refActorUseBuffTime":false,"refActorUseBuffParam":false,"refActorBuffTimeMin":0.0,"refActorBuffTimeMax":0.0,"refActorObjectLife":false,"refActorComparisonType":0,"refActorType":0,"includeHitbox":false,"includeOwnHitbox":false,"includeRotation":false,"onlyTargetable":false,"onlyUnTargetable":false,"onlyVisible":false,"tether":true,"ExtraTetherLength":0.0,"LineEndA":0,"LineEndB":0,"AdditionalRotation":0.0,"LineAddHitboxLengthX":false,"LineAddHitboxLengthY":false,"LineAddHitboxLengthZ":false,"LineAddHitboxLengthXA":false,"LineAddHitboxLengthYA":false,"LineAddHitboxLengthZA":false,"LineAddPlayerHitboxLengthX":false,"LineAddPlayerHitboxLengthY":false,"LineAddPlayerHitboxLengthZ":false,"LineAddPlayerHitboxLengthXA":false,"LineAddPlayerHitboxLengthYA":false,"LineAddPlayerHitboxLengthZA":false,"FaceMe":false,"LimitDistance":false,"LimitDistanceInvert":false,"DistanceSourceX":0.0,"DistanceSourceY":0.0,"DistanceSourceZ":0.0,"DistanceMin":0.0,"DistanceMax":0.0,"LimitRotation":false,"refActorTether":false,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"refActorTetherParam1":null,"refActorTetherParam2":null,"refActorTetherParam3":null,"refActorIsTetherSource":null,"refActorIsTetherInvert":false,"refActorUseTransformation":false,"mechanicType":0,"refMark":false,"refMarkID":0,"faceplayer":"<1>","FillStep":0.5,"LegacyFill":false,"RenderEngineKind":0}}}
+```
+
+## P2 Light Rampant JP  
+
+公式から、光の暴走のスクリプト  
+
+```
+https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/The%20Futures%20Rewritten/P2%20Light%20Rampant%20JP.cs
+```
+
+* スクリプトの設定(configuration)  
+  * Players Count  
+  自分より優先度が高い人数に合わせて変更する。  
+  ここで載せている優先度では、D1は0、D2は1、D3は2、D4は3  
+  * 優先度と自分が入る塔の設定  
+  公式でわかりやすく説明されている為、それをそのまま引用。  
+  ※H2D4調整で下記の場合の設定例  
+  優先度  
+  ```  
+  T1 T2 H1 H2
+  D1 D2 D3 D4
+  ```  
+  設定例  
+  ```
+  T1 - Put No name 
+  0 = NW // 1 = None // 2 = None
+  
+  T2 - Put T1 name
+  0 = S // 1 = NW // 2 = None
+  
+  H1 - T1 > T2
+  0 = NE // 1 = S // 2 =  NW
+  
+  H2 -T1 > T2 > H1
+  0 = SW // 1 = NE // 2 = S
+  --------------------------
+  D1 - Put no name
+  0 = SE // 1 = None // 2 = None
+  
+  D2 - Put D1 name
+  0 = N // 1 = SE // 2 = None
+  
+  D3- D1 > D2
+   0 = SW // 1 = N // 2 = SE
+  
+  D4 -  D1 > D2 > D3
+  0 = NE// 1=  SW -// 2 = N
+  ```
 
 
 ## Layout
