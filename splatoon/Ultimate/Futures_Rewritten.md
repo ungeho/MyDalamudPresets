@@ -388,6 +388,7 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/
   ここで載せている優先度では、D1は0、D2は1、D3は2、D4は3  
   * 優先度と自分が入る塔の設定  
   公式でわかりやすく説明されている為、それをそのまま引用。  
+  塔の方角を指定する枠の隣の数字は、自分より優先度が高い人達の中で、AoEが付与された人の数。  
   ※H2D4調整で下記の場合の設定例  
 
 
