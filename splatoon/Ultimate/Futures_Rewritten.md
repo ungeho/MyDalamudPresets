@@ -293,7 +293,7 @@ public class P1_Fall_of_Faith : SplatoonScript
   NoTether12Directionは、整列した上で線が付かなかった人が行く方角  
     * 新リリドの場合の設定例  
 | 方角 | 役割 |  
-| ---- | ---- |  
+| --- | --- |  
 | West | Tether1Direction |  
 | East | Tether2Direction |  
 | West | Tether3Direction |  
