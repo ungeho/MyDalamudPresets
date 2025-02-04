@@ -307,10 +307,7 @@ public class P1_Fall_of_Faith : SplatoonScript
       * 新リリドの優先度  
       北/西←H1H2MTSTD1D2D3D4→南/東  
   
-| TH | TH |  
-| ---- | ---- |  
-| TD | TD |  
-| TD | TD |  
+
 
 
 ## P2 Diamond Dust  
