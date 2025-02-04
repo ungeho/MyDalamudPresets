@@ -292,8 +292,8 @@ public class P1_Fall_of_Faith : SplatoonScript
   Tether1-4 Directionは線の1～4番目についた人が行く方角  
   NoTether12Directionは、整列した上で線が付かなかった人が行く方角  
     * 新リリドの場合の設定例  
-| 方角 | 役割 |  
-| --- | --- |  
+| Position | Tether |  
+| ---- | ---- |  
 | West | Tether1Direction |  
 | East | Tether2Direction |  
 | West | Tether3Direction |  
