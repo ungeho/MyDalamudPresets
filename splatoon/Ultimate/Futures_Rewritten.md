@@ -19,6 +19,11 @@ https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScr
 ### P1 Fall of Faith  
 
 公式のシンソイルセヴァーのスクリプトの移動先の座標を、ボスのタゲサ上になるように変更したもの。  
+  
+2025-02-06 現在では、このスクリプトで表示されるのは線の属性と自分が東西どちらかであるかの情報のみ  
+それ以上の調整や立ち位置をやりやすくする為の表示についてはPresetで補完する。  
+  
+
 
 ```
 using System.Collections.Generic;
