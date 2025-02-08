@@ -427,7 +427,7 @@ D4 -  D1 > D2 > D3
 0 = NE// 1=  SW -// 2 = N
 ```
 
-### P3 Ultimate Relativity
+<!-- ### P3 Ultimate Relativity
 
 絶・時間圧縮のスクリプト  
 
@@ -439,7 +439,17 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
   THのファイガ30秒(2名)とDPSのファイガ10秒(2名)の被りへの対処は、優先度処理とマーカー処理の二種類ある。  
   それに応じて、スクリプトの設定も二種類用意されている。  
   `General`->`Mode`の部分で、Priority(優先度処理)かMarker(マーカー処理)を設定する。  
-  * Priority(優先度)  
+  * Priority(優先度)   
+-->
+
+## その他の導入推奨プラグイン  
+
+### Lemegeton  
+
+#### P1 Fall of Faith automarker  
+
+`Futures Rewritten(Ultimate)`と`(P1)Fall of Faith automarker`の`Enabled`にチェック  
+`歯車マーク`をクリックして、`Self-marking only`と`Show as client-side soft markers`にチェック  
 
 
 ## Layout
