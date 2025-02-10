@@ -15,7 +15,7 @@
 ```
 https://raw.githubusercontent.com/PunishXIV/Splatoon/refs/heads/main/SplatoonScripts/Duties/Dawntrail/The%20Futures%20Rewritten/P1%20Cyclonic%20Break.cs
 ```
-<!-- 
+
 ### P1 Fall of Faith  
 
 公式のシンソイルセヴァーのスクリプトの移動先の座標を、ボスのタゲサ上になるように変更したもの。  
@@ -312,7 +312,7 @@ public class P1_Fall_of_Faith : SplatoonScript
       北/西←H1H2MTSTD1D2D3D4→南/東  
   
 
--->
+
 
 ### P2 Diamond Dust  
 
