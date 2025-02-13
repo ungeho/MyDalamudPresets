@@ -453,6 +453,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 `歯車マーク`をクリックして、`Self-marking only`と`Show as client-side soft markers`にチェック  
 設定はお好みですが、無職の優先度はある程度自分で判断しつつ（自キャラを含む2～4名を見ておく） + Presetの黄色い無職テザーの方が迷いなく動けると思いました。  
 無職の時の優先度をマーカー付与されるのはありがたいのですが、このマーカーを見て判断すると散開or頭割りが抜けやすい為です。  
+線が自分についた時の視認性の問題の解決と番号を正確に処理する手段として、このプラグインを使うのが良いと思います。  
 その為、個人的なおすすめの設定は  
 * Tether1～Tether4  
   攻撃1～攻撃4のマーカー  
