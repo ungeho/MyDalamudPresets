@@ -451,11 +451,18 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 
 `Futures Rewritten(Ultimate)`と`(P1)Fall of Faith automarker`の`Enabled`にチェック  
 `歯車マーク`をクリックして、`Self-marking only`と`Show as client-side soft markers`にチェック  
+設定はお好みですが、無職の優先度はある程度自分で判断しつつ（自キャラを含む2～4名を見ておく） + Presetの黄色い無職テザーの方が迷いなく動けると思いました。  
+無職の時の優先度をマーカー付与されるのはありがたいのですが、このマーカーを見て判断すると散開or頭割りが抜けやすい為です。  
+その為、個人的なおすすめの設定は  
+* Tether1～Tether4  
+  攻撃1～攻撃4のマーカー  
+* Overflow1～Overflow4  
+  なし  
 
 
-## Layout
+## Layout  
 
-まだ途中です。
+まだ途中です。  
 
 ```
 ~Lv2~{"Name":"P1_フェイトブレイカー：サイクロニックブレイク_焔","Group":"Ultimate Futures Rewritten","ZoneLockH":[1238],"DCond":5,"ElementsL":[{"Name":"ペア割り","type":1,"radius":5.5,"Donut":0.5,"color":4294967040,"Filled":false,"fillIntensity":0.3,"overlayBGColor":3355443200,"overlayTextColor":4294967040,"thicc":5.0,"overlayText":"2 Stack","refActorComparisonType":1,"refActorType":1,"includeRotation":true,"FaceMe":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":10.0,"Match":"(9707>40144)"}]}
