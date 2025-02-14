@@ -430,7 +430,7 @@ D4 -  D1 > D2 > D3
 
 ### P3 Ultimate Relativity
 
-絶・時間圧縮のスクリプト  
+公式から、絶・時間圧縮のスクリプト  
 
 ```
 https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties/Dawntrail/The%20Futures%20Rewritten/P3%20Ultimate%20Relativity.cs
@@ -463,6 +463,15 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 ```
 * その他補足  
   時計のビーム誘導位置は、Presetで表示されるもの（近接が殴れる位置）に従う方が、より真心模様に対して正確であり、幸せな気がします。  
+
+
+## P3 Apocalypse  
+
+公式から、アポカリプスのスクリプト  
+
+```
+https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties/Dawntrail/The%20Futures%20Rewritten/P3%20Apocalypse.cs
+```
 
 
 ## その他の導入推奨プラグイン  
