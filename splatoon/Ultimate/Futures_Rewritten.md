@@ -465,7 +465,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
   時計のビーム誘導位置は、Presetで表示されるもの（近接が殴れる位置）に従う方が、より真心模様に対して正確であり、幸せな気がします。  
 
 
-## P3 Apocalypse  
+### P3 Apocalypse  
 
 公式から、アポカリプスのスクリプト  
 
