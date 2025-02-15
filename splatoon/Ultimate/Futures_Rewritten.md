@@ -438,7 +438,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 
 
 実際に処理したい方法と合致しているかをリプレイを流して、Debugタブで全員の配置が自分が行いたい処理と合致しているかを確認する事をお勧めします。  
-* スクリプトの設定(Configuration)
+* スクリプトの設定(Configuration)  
   THのファイガ30秒(2名)とDPSのファイガ10秒(2名)の被りへの対処は、優先度処理とマーカー処理の二種類ある。  
   それに応じて、スクリプトの設定も二種類用意されている。  
   `General`->`Mode`の部分で、Priority(優先度処理)かMarker(マーカー処理)を設定する。  
@@ -456,7 +456,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
     各デバフに対するマーカー付与と各マーカーに基づいた移動方向が設定されます。  
     実際に試していない為、設定方法はわかりません。  
     マーカー依存の設定は、光のツーラー様のブログをご確認ください。  
-  * Bait Color
+  * Bait Color  
     お好みで`Color1`と`Color2`共に`#00FF00FF`  
 * スクリプトの設定(Registered Element)  
   Presetで既に大量に描画している都合上、ビームが表示されていると視認性が悪くなる為消しています。  
@@ -481,16 +481,16 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
   `Show move guide for party(arrows to safe from initial movement)` にチェック  
   `Show tank bait guide(beta)`にチェック  
   * Safe spots and adjustments  
-    * Select 4 safe spot potisions for your default group
+    * Select 4 safe spot potisions for your default group  
       しのしょーの場合、TH組は最初のAoEに対して赤or黄のマーカーとその+/-45度のマーカー（時計or反時計の一つ先のマーカー）なので  
       赤色のマーカーと黄色のマーカーのある位置、つまり`A1B2`(北,北東,東,南東)の位置にチェックを入れます。  
-      DPSの場合は水色と紫色のマーカーなので、`C3D4`(南、南西、西、北西)の位置にチェックを入れます。
+      DPSの場合は水色と紫色のマーカーなので、`C3D4`(南、南西、西、北西)の位置にチェックを入れます。  
       これは、リリドの場合でも同じ考え方で設定します。
-    * Your default stack(when looking at Gaia):
+    * Your default stack(when looking at Gaia):  
       3回目の頭割りで、デバフの入れ替わりが無い場合にガイアを見た時の左右どちらで頭割りを受けるか設定します。  
       しのしょーの場合、THは`Left`DPSは`Right`に設定します。  
-      これはリリドの場合でも同じ考え方で設定します。
-* スクリプトの設定(Registered Elements)
+      これはリリドの場合でも同じ考え方で設定します。  
+* スクリプトの設定(Registered Elements)  
   描画されるものが多い為、AoEの早期表示を表示しないようにしています。  
   お好みで導入してください。  
 ```
