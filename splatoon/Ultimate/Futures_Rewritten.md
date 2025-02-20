@@ -437,7 +437,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 ```
 
 
-実際に処理したい方法と合致しているかをリプレイを流して、Debugタブで全員の配置が自分が行いたい処理と合致しているかを確認する事をお勧めします。  
+`A Realm Recorded`を使ってリプレイを閲覧しながら、`Debug`タブで全員の配置が自分が行いたい処理と合致しているかを確認する事をお勧めします。  
 * スクリプトの設定(Configuration)  
   THのファイガ30秒(2名)とDPSのファイガ10秒(2名)の被りへの対処は、優先度処理とマーカー処理の二種類ある。  
   それに応じて、スクリプトの設定も二種類用意されている。  
