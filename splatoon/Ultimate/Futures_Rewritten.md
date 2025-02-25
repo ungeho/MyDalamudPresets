@@ -642,6 +642,10 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 
 ### Peset  
 
+[WIP] 現在作成中です。  
+[JP/EN]トリガーや敵の名前、キャストID等の設定は英語と日本語に対応しています。  
+※ただし、表示されるメッセージは日本語である事に注意してください。  
+
 ```
 ~Lv2~{"Name":"P1_フェイトブレイカー：サイクロニックブレイク_焔","Group":"Ultimate Futures Rewritten","ZoneLockH":[1238],"DCond":5,"ElementsL":[{"Name":"ペア割り","type":1,"radius":5.5,"Donut":0.5,"color":4294967040,"Filled":false,"fillIntensity":0.3,"overlayBGColor":3355443200,"overlayTextColor":4294967040,"thicc":5.0,"overlayText":"2 Stack","refActorComparisonType":1,"refActorType":1,"includeRotation":true,"FaceMe":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":9.0,"Match":"(9707>40144)"}]}
 ~Lv2~{"Name":"P1_フェイトブレイカー：サイクロニックブレイク_雷","Group":"Ultimate Futures Rewritten","ZoneLockH":[1238],"DCond":5,"ElementsL":[{"Name":"散開(自分)","type":1,"radius":6.0,"color":4278779648,"Filled":false,"fillIntensity":0.11,"overlayBGColor":3355443200,"overlayTextColor":4278779648,"thicc":4.0,"overlayText":"Spread","refActorType":1,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"散開(その他)","type":1,"radius":6.0,"color":4278779648,"fillIntensity":0.11,"overlayBGColor":3355443200,"overlayTextColor":4278779648,"thicc":4.0,"overlayText":"Spread","refActorPlaceholder":["<2>","<3>","<4>","<5>","<6>","<7>","<8>"],"refActorComparisonType":5,"includeRotation":true,"FaceMe":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":9.0,"Match":"(9707>40148)"}],"MaxDistance":7.5,"UseDistanceLimit":true,"DistanceLimitType":1}
