@@ -2,6 +2,21 @@
 
 最終更新日：2025-01-05 18:43:13
 
+## 概要-Abstract
+
+Presetとは別に、下記のリンクに記載した公式のScriptの使用をお勧めします。  
+基本的には、公式のScriptを表示だけ変更して使用していますが、`P6 Wroth Flames`のみPresetに合わせて誘導される座標を変更しています。  
+[Script](#Script)  
+
+
+Presetはこちらです。  
+[JP/EN]トリガーや敵の名前、キャストID等の設定は英語と日本語に対応しています。  
+※ただし、表示されるメッセージは日本語である事に注意してください。  
+[Preset](#Preset)  
+また、攻略方法はリリードールに合わせて作成しています。  
+[リリードールマクロ](https://jp.finalfantasyxiv.com/lodestone/character/34120564/blog/5178834/  "リリードールマクロ")
+  
+
 
 ## Script
 
@@ -631,14 +646,6 @@ public class P6_Wroth_Flames : SplatoonScript
 {"Elements":{"Bait":{"Name":"","type":0,"Enabled":false,"refX":0.0,"refY":0.0,"refZ":0.0,"offX":83.5,"offY":115.0,"offZ":0.0,"radius":1.0,"color":4279631616,"Filled":false,"fillIntensity":0.39215687,"overlayBGColor":1879048192,"overlayTextColor":3372220415,"overlayVOffset":0.0,"overlayFScale":1.0,"overlayPlaceholders":false,"thicc":6.0,"overlayText":"","refActorName":"","refActorTargetingYou":0,"refActorNamePlateIconID":0,"refActorComparisonAnd":false,"refActorRequireCast":false,"refActorCastReverse":false,"refActorUseCastTime":false,"refActorCastTimeMin":0.0,"refActorCastTimeMax":0.0,"refActorUseOvercast":false,"refTargetYou":false,"refActorRequireBuff":false,"refActorRequireAllBuffs":false,"refActorRequireBuffsInvert":false,"refActorUseBuffTime":false,"refActorUseBuffParam":false,"refActorBuffTimeMin":0.0,"refActorBuffTimeMax":0.0,"refActorObjectLife":false,"refActorComparisonType":0,"refActorType":0,"includeHitbox":false,"includeOwnHitbox":false,"includeRotation":false,"onlyTargetable":false,"onlyUnTargetable":false,"onlyVisible":false,"tether":true,"ExtraTetherLength":0.0,"LineEndA":1,"LineEndB":0,"AdditionalRotation":0.0,"LineAddHitboxLengthX":false,"LineAddHitboxLengthY":false,"LineAddHitboxLengthZ":false,"LineAddHitboxLengthXA":false,"LineAddHitboxLengthYA":false,"LineAddHitboxLengthZA":false,"LineAddPlayerHitboxLengthX":false,"LineAddPlayerHitboxLengthY":false,"LineAddPlayerHitboxLengthZ":false,"LineAddPlayerHitboxLengthXA":false,"LineAddPlayerHitboxLengthYA":false,"LineAddPlayerHitboxLengthZA":false,"FaceMe":false,"LimitDistance":false,"LimitDistanceInvert":false,"DistanceSourceX":0.0,"DistanceSourceY":0.0,"DistanceSourceZ":0.0,"DistanceMin":0.0,"DistanceMax":0.0,"LimitRotation":false,"refActorTether":false,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"refActorTetherParam1":null,"refActorTetherParam2":null,"refActorTetherParam3":null,"refActorIsTetherSource":null,"refActorIsTetherInvert":false,"refActorUseTransformation":false,"mechanicType":0,"refMark":false,"refMarkID":0,"faceplayer":"<1>","FillStep":0.5,"LegacyFill":false,"RenderEngineKind":0}}}
 ```
 
-## その他のプラグイン
-
-### Lemegeton
-
-#### (P6) Dragon HP difference indicator
-
-P6の均等化に使用。  
-UIの位置を調節できるようになった為、導入推奨。  
 
 ## Preset
 

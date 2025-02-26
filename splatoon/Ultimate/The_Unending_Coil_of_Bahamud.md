@@ -2,7 +2,7 @@
 
 ## 概要-Abstract
 
-Presetとは別に、公式のScriptとLemegetonの一部の機能の使用をお勧めします。  
+公式のScriptとLemegetonの一部の機能を併用して使用することをお勧めします。  
 [Script](#Script)  
 [Lemegeton](#Lemegeton)  
   
