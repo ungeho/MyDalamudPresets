@@ -1,6 +1,17 @@
-## The Unending Coil of Bahamud
+# The Unending Coil of Bahamud
 
-### 公式から導入を推奨するプリセット
+## 概要-Abstract
+
+Presetとは別に、公式のScriptとLemegetonの一部の機能の使用をお勧めします。  
+[Script](#Script)  
+[Lemegeton](#Lemegeton)  
+  
+Presetはこちらです。  
+[JP]トリガーのセリフや敵の名前は日本語で設定されています。  
+[Preset](#Preset)  
+
+
+## Script
 
 * [International] [Script] Tank tethers. Shows them more visible and changes color based on whether it's taken by a tank or not.
 
@@ -43,9 +54,16 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood
 ```
 https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood/UCOB%20Heavensfall%20Trio%20Towers.cs
 ```
+## Lemegeton
 
+* 群竜の八重奏-ツイスターダイブ対象者  
+  `Lemegeton`プラグインを使用  
+  `/lemmy`->`コンテンツ`->`絶レイド`を有効にする。  
+  ->`絶バハムート討滅戦`を有効にする。  
+  ->`(P3)群竜の八重奏 オートマーカー`を有効にする。  
+  `歯車マーク`->`クライアント側のソフトマーカーとして表示する`にチェック。  
 
-### The Unending Coil of Bahamud
+## Preset
 
   [JP]トリガーのセリフや敵の名前は日本語で設定されています。
 
