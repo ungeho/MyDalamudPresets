@@ -658,8 +658,8 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 
 ### 補足説明  
 
-* 時間圧縮・絶について
-  時間圧縮・絶についてはStep.0からStep.7までの合計8Stepで構成されています。  
+* 時間圧縮・絶について  
+  時間圧縮・絶はStep.0からStep.7までの合計8Stepで構成されています。  
   Step毎の時間は5秒です。  
   Step.0は自身に付与されたデバフから担当の方角を判断する5秒間。  
   Step.7は3秒程度スタンしてリターン位置に戻された後、ボスの頭割りを受けるものです。  
