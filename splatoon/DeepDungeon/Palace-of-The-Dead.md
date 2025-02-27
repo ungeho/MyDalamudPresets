@@ -1,3 +1,14 @@
+最終更新日：2025-02-28 01:03:04  
+  
+SplatoonのRenderer方法が変わる前にexportした状態のPresetだった為、importすると塗りつぶしなしで設定されているはずの円の描画が塗りつぶしになっている問題がありました。  
+手元のPresetはそのような問題が無かった為、そのままあげなおしましたが新しい機能追加によって、意図しない設定になっている部分があります。  
+具体的には、扇状(Cone)や直線(Line)の描画の塗りつぶし(Fill)がオンになっている所です。  
+追加された塗りつぶし機能を使う方が分かりやすい可能性もある事から、これらの設定の見直しは行っていない為、使いやすいように設定を変えて使用する事をお勧めします。  
+私がこのコンテンツに入った場合はついでに設定を見直しを行って再度アップする事もあると思いますが、このコンテンツに入る予定は今の所ありません。  
+また、これに伴い`Palace-of-The-Dead-Radar.md`と`Palace-of-The-Dead-Mobs.md`に記載されていたPresetの説明を`Palace-of-The-Dead.md`に移動。  
+`Palace-of-The-Dead-Radar.md`と`Palace-of-The-Dead-Mobs.md`を削除しました。  
+
+
 # 死者の宮殿 SplatoonPreset まとめ
 
 ```
@@ -18,3 +29,88 @@
 ~Lv2~{"Name":"Palace of The Dead Mobs B181-190","Group":"Palace of The Dead ","ZoneLockH":[606],"ElementsL":[{"Name":"Sight","type":4,"Enabled":false,"radius":10.0,"coneAngleMin":-90,"coneAngleMax":90,"color":3355508480,"thicc":0.0,"refActorType":2,"includeHitbox":true,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":15.0},{"Name":"Proximity","type":1,"Enabled":false,"radius":10.0,"Filled":false,"refActorType":2,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"Sound","type":1,"Enabled":false,"radius":10.0,"color":3372155099,"Filled":false,"refActorType":2,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"Sight Range","type":1,"Enabled":false,"radius":10.0,"color":3355508480,"Filled":false,"refActorType":2,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"dot","type":1,"Enabled":false,"radius":0.0,"Filled":false,"refActorType":2,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・ワモーラカンパ","type":1,"radius":10.0,"color":3372155099,"Filled":false,"refActorNPCNameID":5463,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・ガルム","type":1,"radius":10.0,"Filled":false,"refActorNPCNameID":5470,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・グレネード","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":5462,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":15.0},{"Name":"ディープパレス・スプライト","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":5480,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":15.0},{"Name":"ディープパレス・ワモーラ","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":5469,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":15.0},{"Name":"ディープパレス・クロウラー","type":1,"radius":10.0,"color":3372155099,"Filled":false,"refActorNPCNameID":5467,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・アルケオダイノス","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":5440,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":15.0},{"Name":"ディープパレス・ヴィンドスルス","type":1,"radius":10.0,"Filled":false,"refActorNPCNameID":5468,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・クレイクロウ","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":5466,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":15.0},{"Name":"ディープパレス・フラッドウォーム","type":1,"radius":10.0,"color":3372155099,"Filled":false,"refActorNPCNameID":5465,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"フラッドドラゴン","type":4,"radius":10.0,"coneAngleMin":-45,"coneAngleMax":45,"color":3355508480,"thicc":0.0,"refActorNPCNameID":5464,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":15.0},{"Name":"ディープパレス・グレネード(Sight Range)","type":1,"radius":10.0,"color":3355508480,"Filled":false,"refActorNPCNameID":5462,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・スプライト(Sight Range)","type":1,"radius":10.0,"color":3355508480,"Filled":false,"refActorNPCNameID":5480,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・アルケオダイノス(Sight Range)","type":1,"radius":10.0,"color":3355508480,"Filled":false,"refActorNPCNameID":5440,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・クレイクロウ(Sight Range)","type":1,"radius":10.0,"color":3355508480,"Filled":false,"refActorNPCNameID":5466,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"フラッドドラゴン(Sight Range)","type":1,"radius":10.0,"color":3355508480,"Filled":false,"refActorNPCNameID":5464,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・ワモーラ(Sight Range)","type":1,"radius":10.0,"color":3355508480,"Filled":false,"refActorNPCNameID":5469,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ラーヴァ・ボム","type":1,"radius":6.0,"Filled":false,"overlayText":"ボスに飛ばす","refActorNPCNameID":4580,"refActorComparisonType":6,"includeHitbox":true,"tether":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"レメディ・ボム","type":1,"radius":0.0,"color":3372164864,"Filled":false,"overlayText":"倒す","refActorNPCNameID":4579,"refActorComparisonType":6,"tether":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ギディ・ボム","type":1,"radius":6.0,"color":3355508712,"Filled":false,"refActorNPCNameID":5477,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"白き鎧の帝国将校","type":1,"radius":10.0,"Filled":false,"refActorNPCNameID":5289,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・ワモーラカンパ(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5463,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・グレネード(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5462,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・スプライト(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5480,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・ワモーラ(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5469,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・クロウラー(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5467,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・アルケオダイノス(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5440,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・クレイクロウ(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5466,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・フラッドウォーム(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5465,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"フラッドドラゴン(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5464,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0}],"MaxDistance":40.0,"UseDistanceLimit":true,"DistanceLimitType":1}
 ~Lv2~{"Name":"Palace of The Dead Mobs B191-199","Group":"Palace of The Dead ","ZoneLockH":[607],"ElementsL":[{"Name":"Sight","type":4,"Enabled":false,"radius":10.0,"coneAngleMin":-90,"coneAngleMax":90,"color":3355508480,"thicc":0.0,"refActorType":2,"includeHitbox":true,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":15.0},{"Name":"Proximity","type":1,"Enabled":false,"radius":10.0,"Filled":false,"refActorType":2,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"Sound","type":1,"Enabled":false,"radius":10.0,"color":3372155099,"Filled":false,"refActorType":2,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"Sight Range","type":1,"Enabled":false,"radius":10.0,"color":3355508480,"Filled":false,"refActorType":2,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"dot","type":1,"Enabled":false,"radius":0.0,"Filled":false,"refActorType":2,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・アイストラップ","type":1,"radius":10.0,"color":3372155099,"Filled":false,"refActorNPCNameID":5472,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・マミー","type":1,"radius":10.0,"Filled":false,"refActorNPCNameID":5401,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・ヒッポグリフ","type":1,"radius":10.0,"Filled":false,"refActorNPCNameID":5364,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・アイアンコース","type":1,"radius":10.0,"Filled":false,"refActorNPCNameID":5475,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・レイス","type":1,"radius":10.0,"Filled":false,"refActorNPCNameID":5422,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":15.0},{"Name":"オニキスドラゴン","type":1,"radius":10.0,"Filled":false,"refActorNPCNameID":5420,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":15.0},{"Name":"ディープパレス・ダブルヘッド","type":1,"radius":10.0,"Filled":false,"refActorNPCNameID":5474,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・ファハン","type":4,"radius":10.0,"coneAngleMin":-60,"coneAngleMax":60,"color":3355508480,"thicc":0.0,"refActorNPCNameID":5473,"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":15.0},{"Name":"ディープパレス・ナイト","type":1,"radius":10.0,"Filled":false,"refActorNPCNameID":5415,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・グルマン","type":1,"radius":10.0,"Filled":false,"refActorNPCNameID":5409,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・キーパー","type":1,"radius":10.0,"color":3372155099,"Filled":false,"refActorNPCNameID":5423,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・ファハン(Sight Range)","type":1,"radius":10.0,"color":3355508480,"Filled":false,"refActorNPCNameID":5473,"refActorComparisonType":6,"includeHitbox":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・アイストラップ(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5472,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・ファハン(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5473,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"ディープパレス・キーパー(dot)","type":1,"radius":0.0,"Filled":false,"refActorNPCNameID":5423,"refActorComparisonType":6,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0}],"MaxDistance":40.0,"UseDistanceLimit":true,"DistanceLimitType":1}
 ```
+
+* Palace of the Dead Radar  
+  * Target Sensing Range  
+    ターゲット対象を中心に、緑色の半径 target hitbox + 10m　の円を表示  
+    ターゲットしている敵の感知範囲の簡易的な目安  
+  * Mimic Sensing Range  
+    ミミックを中心に、黄色の半径 target hitbox + 14m の円を表示  
+    ミミックの感知範囲の目安  
+  * Mandragora Sensing Range  
+    ピグマイオイを中心に、水色の半径 target hitbox + 14m の円を表示  
+    敵変化によるピグマイオイ出現の目安  
+  * Turning Enemies  
+    ターゲット対象を中心に、水色の半径 1.5m の円を表示  
+    ターゲット対象と自身を繋げる直線を表示（tether）  
+    敵回しの目安(tetherのチェックはお好み)  
+  * Metastasis Tracker  
+    自身と転移の石塔を結ぶ赤色の直線を表示  
+    転移の石塔を中心に、赤色の半径 2m の円を表示  
+    転移の石塔の場所の目安  
+    always pixel perfect（足元のdot）が表示された円に入ると転移が開始される  
+  * Treasure Chest Gold  
+    金箱を中心に、白色の半径 target hitbox + 4m の円を表示  
+    金箱の場所の目安  
+    always pixel perfect（足元のdot）が表示された円に入ると取得可能  
+  * Treasure Chest Silver  
+    銀箱を中心に、青色の半径 target hitbox + 4m の円を表示  
+    銀箱の場所の目安  
+    always pixel perfect（足元のdot）が表示された円に入ると取得可能  
+  * Treasure Chest Bronze(2,3,5,6,7,8,9,10,11,12,13,14)  
+    銅箱を中心に、橙色の半径 target hitbox + 2.5m の円を表示  
+    銅箱の場所の目安  
+    always pixel perfect（足元のdot）が表示された円に入ると取得可能（正確でな  い）  
+  * Treasure Chest Bronze4(Mimic)  
+    銅箱(ミミック)を中心に、水色の半径 target hitbox + 2.5m の円を表示  
+    銅箱（ミミック）の場所の目安  
+    always pixel perfect（足元のdot）が表示された円に入ると取得可能（正確でな  い）  
+  * Morphological change Range  
+    自身を中心に、水色の半径 your hitbox + 18m の円を表示  
+    形態変化のレンジの目安（敵のターゲットサークルが円に触れていれば有効）  
+  * stepped on the trap  
+    トラップを踏んだ跡地を中心に、紫色の半径 0.5m の円を表示  
+    （銀箱を開けた跡地にも表示される）  
+  * always pixel perfect  
+    自身を中心に、緑色の半径 0m の円を表示（ドット）  
+    hitboxの目安として常に表示される  
+  * Contact Range  
+    自身を中心に、赤色の your hitbox + 0.55m の円を表示  
+    円が敵の中心に触れたら接触判定として感知されてもおかしくはないくらいの目安  （あまり正確ではない）  
+    接触扱いで感知される範囲は、ターゲットサークルの大きさに関わらず敵によってバラバラ  
+  * Trap Hitbox  
+    自身を中心に、緑色の your hitbox + 1.2m の円を表示  
+    罠に接触するかの目安  
+    表示された円が、Deep Dungeon Helper プラグインによって表示された点に触れると、その場所に罠が存在した場合は起爆する。  
+    同様に、財宝感知で発見した財宝も、Trap Hitboxで表示された円の範囲内に入れる事で掘り起こす事が出来る。  
+  * Turning Enemies (Right/Left) point  
+    ターゲット対象を中心とした半径1.5mの円周上の角度（0/180）度（敵の真横）の位置に水色の半径 0.1m の円を塗りつぶしで表示  
+    敵回しの目安  （塗りつぶした円の位置に立ち続けられるように回し続ける）  
+  * Turning Enemies Forward  
+    ターゲット対象を中心に、水色で前方90度の扇範囲を描画  
+    敵回しの目安  （表示された線を踏み越えないように回し続ける）  
+  * Buried treasure  
+    自身と財宝探知によって発見された埋もれた財宝を黄色の直線で結ぶ  
+    財宝探知で発見された埋もれた財宝の場所の目安  
+
+* Palace of the Dead Mobs  
+  * 視覚感知  
+    視覚感知の敵を中心に、緑色の半径 target hitbox + 10m の円を表示  
+    視覚感知の敵（アーリマン系を除く）を中心に、緑色の前方90度の扇範囲を表示  
+    視覚感知の敵（アーリマン系）      を中心に、緑色の前方120度の扇範囲を表示  
+  * 接近感知  
+    接近感知の敵を中心に、赤色の半径 target hitbox + 10m の円を表示  
+  * 聴覚感知  
+    聴覚感知の敵を中心に、紫色の半径 target hitbox + 10m の円を表示  
+  * 接触感知  
+    全ての敵を中心に、赤色の半径 0m の円を表示（ドット）  
+    接触判定の目安  
+  * 個人的なメモなど  
+    死者の情報はほとんど抜けている  
+    ダングビートル（視覚感知）の感知範囲は10mより大きい（未修正）  
+    ヒッポグリフ（接近感知）は恐らく接触判定がかなり広い（10m未満）視覚感知（約10mで視覚感知）安全の為に接近感知のまま放置  
+    * 接触判定について（予想）  
+      接触判定は以下の2種類が採用されていると予想  
+        1. 自身を中心とした（自身のHitbox or 自身のタゲサ）と敵の中心が触れた時に接触した判定  
+        2. 自身を中心とした（自身のHitbox or 自身のタゲサ）と敵を中心とした（敵のHitbox or 敵のタゲサ）が触れた時に接触した判定  
+      ほとんどの敵はaで判定されて、一部がbの判定かもしれないと予想（未検証）  
