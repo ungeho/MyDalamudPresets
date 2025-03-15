@@ -668,6 +668,22 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 ```
 
 
+### P5 Paradise Regained  
+
+公式から、タンク強の誘導や塔踏み位置を表示する。  
+
+* スクリプトの設定(Configuration)  
+  * MoveType & Second Bait Type  
+    * ぬけまる  
+| TH | TH |  
+| ---- | ---- |  
+| TD | TD |  
+| TD | TD |  
+    * リリド  
+| TH | TH |  
+| ---- | ---- |  
+| TD | TD |  
+| TD | TD |  
 
 
 ## その他の導入推奨プラグイン  
