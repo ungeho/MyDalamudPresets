@@ -674,16 +674,16 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 
 * スクリプトの設定(Configuration)  
   * MoveType & Second Bait Type  
-    * ぬけまる  
-| TH | TH |  
-| ---- | ---- |  
-| TD | TD |  
-| TD | TD |  
-    * リリド  
-| TH | TH |  
-| ---- | ---- |  
-| TD | TD |  
-| TD | TD |  
+    ぬけまる  
+    | TH | TH |  
+    | ---- | ---- |  
+    | TD | TD |  
+    | TD | TD |  
+    リリド  
+    | TH | TH |  
+    | ---- | ---- |  
+    | TD | TD |  
+    | TD | TD |  
 
 
 ## その他の導入推奨プラグイン  
