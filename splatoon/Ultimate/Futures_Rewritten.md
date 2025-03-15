@@ -681,17 +681,17 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
     * ぬけまるの場合  
       | 項目名 | MT | ST | PH | BH | D1 | D2 | D3 | D4 |  
       | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |  
-      | MoveType | FirstBait | SecondBait | Tower | Tower | Tower | Tower | Tower | Tower |  
-      | TowerType | - | - | First | First | SecondSafe | SecondSafe | FirstSafe | FirstSafe |  
-      | First Bait Type | GoToPppositeFirstTower | - | - | - | - | - | - | - |  
-      | Second Bait Type | - | GoToSafe | - | - | - | - | - | - |  
+      | 1.MoveType | FirstBait | SecondBait | Tower | Tower | Tower | Tower | Tower | Tower |  
+      | 2.TowerType | - | - | First | First | SecondSafe | SecondSafe | FirstSafe | FirstSafe |  
+      | 2.First Bait Type | GoToPppositeFirstTower | - | - | - | - | - | - | - |  
+      | 2.Second Bait Type | - | GoToSafe | - | - | - | - | - | - |  
     * リリドの場合  
       | 項目名 | MT | ST | PH | BH | D1 | D2 | D3 | D4 |  
       | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |  
-      | MoveType | FirstBait | SecondBait | Tower | Tower | Tower | Tower | Tower | Tower |  
-      | TowerType | - | - | First | First | Right | Right | Left | Left |  
-      | First Bait Type | GoToPppositeFirstTower | - | - | - | - | - | - | - |  
-      | Second Bait Type | - | GoToSafe | - | - | - | - | - | - |  
+      | 1.MoveType | FirstBait | SecondBait | Tower | Tower | Tower | Tower | Tower | Tower |  
+      | 2.TowerType | - | - | First | First | Right | Right | Left | Left |  
+      | 2.First Bait Type | GoToPppositeFirstTower | - | - | - | - | - | - | - |  
+      | 2.Second Bait Type | - | GoToSafe | - | - | - | - | - | - |  
   * BaitColor  
     誘導色の変更。お好みで  
     `Color1`を`#00FF00FF`  
