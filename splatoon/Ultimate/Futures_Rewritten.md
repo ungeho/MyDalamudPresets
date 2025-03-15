@@ -677,11 +677,15 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
     * ぬけまるの場合  
       | 項目名 | MT | ST | PH | BH | D1 | D2 | D3 | D4 |  
       | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |  
-      | TD | TD | TD | TD | TD | TD | TD | TD | TD |  
-      | TD | TD | TD | TD | TD | TD | TD | TD | TD |  
+      | MoveType | FirstBait | SecondBait | Tower | Tower | Tower | Tower | Tower | Tower |  
+      | TowerType | - | - | First | First | SecondSafe | SecondSafe | FirstSafe | FirstSafe |  
+      | First Bait Type | GoToPppositeFirstTower | - | - | - | - | - | - | - |  
+      | Second Bait Type | - | GoToSafe | - | - | - | - | - | - |  
     * リリドの場合  
       | 項目名 | MT | ST | PH | BH | D1 | D2 | D3 | D4 |  
       | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |  
+      | TD | TD | TD | TD | TD | TD | TD | TD | TD |  
+      | TD | TD | TD | TD | TD | TD | TD | TD | TD |  
       | TD | TD | TD | TD | TD | TD | TD | TD | TD |  
       | TD | TD | TD | TD | TD | TD | TD | TD | TD |  
 
