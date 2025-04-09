@@ -24,7 +24,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 ### [JP Only] Disco Infernal
 
 公式から、ディスコインファーナル1回目のスクリプト(日本語のみ)  
-自分が踏む方角のライトを設定する。  
+自分が踏むライトの方角を設定する。  
 
 ```
 https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties/Dawntrail/M5S%20Disco%20Infernal.cs
