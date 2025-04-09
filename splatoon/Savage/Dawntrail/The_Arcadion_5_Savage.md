@@ -23,7 +23,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 
 ### [JP Only] Disco Infernal
 
-公式から、ディスコインファーナル1回目のスクリプト  
+公式から、ディスコインファーナル1回目のスクリプト(日本語のみ)  
 自分が踏む方角のライトを設定する。  
 
 ```
@@ -42,7 +42,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 
 ## Preset
 
-言語設定は日本語と英語で動作します。  
+トリガーは日本語と英語で動作します。  
 表示されるメッセージは一部日本語です。  
 
 ```
