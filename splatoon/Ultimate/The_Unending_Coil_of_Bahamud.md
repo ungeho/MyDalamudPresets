@@ -71,7 +71,14 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood
   ->`(P3)群竜の八重奏 オートマーカー`を有効にする。  
   `歯車マーク`->`クライアント側のソフトマーカーとして表示する`にチェック。  
 
-## Preset
+## Preset  
+
+  <span style="color: red; ">
+  旧バージョンのSplatoonで作成したPresetです。  
+  上げ直し日時で手元のPresetをExportしていますが、全てが正常に動作するとは限りません。  
+  ご注意ください。  
+  </span>
+  再アップロード日時：2025-04-25 19:42:40  
 
   [JP]トリガーのセリフや敵の名前は日本語で設定されています。
 
