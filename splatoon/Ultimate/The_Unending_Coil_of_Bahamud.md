@@ -74,7 +74,7 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Stormblood
 ## Preset  
 
   
-  **旧バージョンのSplatoonで作成したPresetです。**  
+  **最新バージョンのSplatoonで動作確認をしていないPresetです。**  
   **上げ直し日時で手元のPresetをExportしていますが、全てが正常に動作するとは限りません。**  
   **ご注意ください。**  
   
