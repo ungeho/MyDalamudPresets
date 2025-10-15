@@ -11,6 +11,7 @@ DDピルグリムトラバースのPreset
 https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties/Dawntrail/Quantum%2040/Quantum%20Target%20Enforcer.cs
 ```
 ### 今後の予定
+- 深淵の焔のAoEを表示するエリア（討滅戦）を追加する
 - 「光耀の剣→焔の枷」のパターン追加（確認できたら）
 - その他修正
 ### 深淵の焔のAoE表示について
