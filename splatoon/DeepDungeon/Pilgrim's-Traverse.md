@@ -14,8 +14,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 ### 今後の予定
 - フェオ=ウルの居場所をわかりやすく
 - フェオ=ウル_明敏の変身時の詠唱を表示
-- フェオ=ウル_安寧のDotの詠唱を表示
-- 安寧のクールタイム
+- フェオ=ウル_明敏の変身のクールタイムを表示
 - 「光耀の剣→焔の枷」のパターン追加（確認できたら）
 - その他修正
 ### 深淵の焔のAoE表示について
