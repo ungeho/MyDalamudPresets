@@ -7,7 +7,7 @@ DDピルグリムトラバースのPreset
 > 通常はソロでのみ使用してください。強制的にターゲットがコントロールされる為、蘇生する際のターゲット変更の邪魔になります。  
 > PTで使用する場合は直接ターゲットしなくても蘇生出来るマクロを用意してください。
   
-公式から、属性変更に応じてターゲットを変更してくれるもの。T99でも有効。
+公式から、属性に応じてターゲットを変更してくれるもの。T99でも有効。
 ```
 https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties/Dawntrail/Quantum%2040/Quantum%20Target%20Enforcer.cs
 ```
