@@ -11,6 +11,15 @@
 https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties/Dawntrail/M10S%20Insane%20Air.cs
 ```
 
+[Script] Alleyoop
+
+公式から、アリウープのスクリプト  
+設定不要
+
+```url
+https://github.com/PunishXIV/Splatoon/blob/main/SplatoonScripts/Duties/Dawntrail/M10S%20Alleyoop.cs
+```
+
 ## Layout
 
 ### Configurations
