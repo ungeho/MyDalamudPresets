@@ -1,4 +1,16 @@
+[リポジトリの案内](../../readme.md) · [Waymark一覧](../README.md)
+
 # Endwalker-ExtremeTrials
+
+## 目次
+
+- [The Endsinger](#the-endsinger)
+- [Barbariccia](#barbariccia)
+- [Rubicante](#rubicante)
+- [The Voidcast Dais](#the-voidcast-dais)
+- [The Abyssal Fracture](#the-abyssal-fracture)
+
+各見出しの対象・方式を確認し、その下のインポートデータを使用してください。画像がある項目は、同じ見出し内のデータに対応します。
 
 
 ## The Endsinger

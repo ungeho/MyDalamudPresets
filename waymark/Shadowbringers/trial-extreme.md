@@ -1,4 +1,13 @@
+[リポジトリの案内](../../readme.md) · [Waymark一覧](../README.md)
+
 # Shadowbringers-ExtremeTrials
+
+## 目次
+
+- [Hades](#hades)
+- [The Emerald Weapon](#the-emerald-weapon)
+
+各見出しの対象・方式を確認し、その下のインポートデータを使用してください。画像がある項目は、同じ見出し内のデータに対応します。
 
 ## Hades
 

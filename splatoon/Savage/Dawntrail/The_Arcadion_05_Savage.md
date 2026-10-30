@@ -1,3 +1,11 @@
+[リポジトリの案内](../../../readme.md) · [Splatoon一覧](../../README.md)
+
+# アルカディア零式 M5S
+
+## 目次
+
+- [Script](#script)
+- [Preset](#preset)
 
 攻略方法はgame8(ぬけまる)を想定しています。  
 

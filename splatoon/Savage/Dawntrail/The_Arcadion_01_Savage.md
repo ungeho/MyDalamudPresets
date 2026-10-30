@@ -1,4 +1,6 @@
-# The Arcadion 1 Savage
+[リポジトリの案内](../../../readme.md) · [Splatoon一覧](../../README.md)
+
+# アルカディア零式 M1S
 
 ```
 ~Lv2~{"Name":"ブラックキャット_クアドラプルネイル(扇AoE)","Group":"アルカディアLH級零式1層","ZoneLockH":[1226],"ElementsL":[{"Name":"扇AoE","type":4,"radius":30.0,"coneAngleMin":-22,"coneAngleMax":22,"color":4278190335,"fillIntensity":0.3,"originFillColor":838861055,"endFillColor":838861055,"thicc":3.0,"refActorNPCNameID":12686,"refActorRequireCast":true,"refActorCastId":[37952,37980],"refActorComparisonType":6,"includeHitbox":true,"includeRotation":true,"DistanceMax":13.2,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":4.0}]}

@@ -1,4 +1,13 @@
+[リポジトリの案内](../../readme.md) · [Waymark一覧](../README.md)
+
 # Stormblood-Ultimate
+
+## 目次
+
+- [The Weapon's Refrain](#the-weapons-refrain)
+- [The Unending Coil of Bahamud](#the-unending-coil-of-bahamud)
+
+各見出しの対象・方式を確認し、その下のインポートデータを使用してください。画像がある項目は、同じ見出し内のデータに対応します。
 
 ## The Weapon's Refrain
 

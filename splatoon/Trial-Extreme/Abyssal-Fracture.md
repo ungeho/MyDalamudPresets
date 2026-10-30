@@ -1,4 +1,6 @@
-***Abyssal Fracture***
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
+
+# 極ゼロムス討滅戦（Abyssal Fracture）
 
 * Abyssal Fracture AoE
   splatoon作者のpresetのLineAoEやデバフを少し修正したものに、コメットや円形AoE等を追加した詰め合わせ

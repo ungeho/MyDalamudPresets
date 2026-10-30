@@ -1,3 +1,5 @@
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
+
 最終更新日：2025-02-28 01:26:45  
   
 SplatoonのRenderer方法が変わった為、PresetをExportし直しました。  
@@ -5,7 +7,7 @@ SplatoonのRenderer方法が変わった為、PresetをExportし直しました�
 古いPresetな為Splatoonの機能が追加された事により、追加された部分の設定は意図しない設定になっている可能性が高いです。  
 特に、扇状(Cone)や直線(Line)の塗りつぶし(Fill)がオンになっているせいでやり辛くなっている場合は、個別に該当の部分の設定を変更する事をお勧めします。  
 
-## Sil'dihn Subterrane
+# Sil'dihn Subterrane
 
 異聞シラディハ水道(零式)のプリセット
 

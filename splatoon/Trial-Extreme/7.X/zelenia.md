@@ -1,4 +1,6 @@
-## 7.2EX_Zelenia
+[リポジトリの案内](../../../readme.md) · [Splatoon一覧](../../README.md)
+
+# 極ゼレニア討滅戦
 
 ```
 ~Lv2~{"Name":"クライムクロス","Group":"Extreme - 7.2_Zelenia","ZoneLockH":[1271],"DCond":5,"ElementsL":[{"Name":"タゲサ","type":1,"radius":0.0,"Filled":false,"fillIntensity":0.5,"thicc":6.0,"refActorNPCNameID":13861,"refActorComparisonType":6,"includeHitbox":true,"onlyTargetable":true,"onlyVisible":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"南","type":1,"Enabled":false,"offY":5.5,"radius":0.5,"color":3355490815,"Filled":false,"fillIntensity":0.5,"thicc":4.0,"refActorNPCNameID":13861,"refActorComparisonType":6,"onlyTargetable":true,"onlyVisible":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"北","type":1,"Enabled":false,"offY":-5.5,"radius":0.5,"color":3356884736,"Filled":false,"fillIntensity":0.5,"thicc":4.0,"refActorNPCNameID":13861,"refActorComparisonType":6,"onlyTargetable":true,"onlyVisible":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0}],"UseTriggers":true,"Triggers":[{"Type":2,"Duration":25.0,"Match":"(13861>43181)"}]}

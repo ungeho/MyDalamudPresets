@@ -1,4 +1,14 @@
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
+
 # Dragonsong's Reprise
+
+## 目次
+
+- [概要-Abstract](#section-1)
+- [Script](#script)
+- [Preset](#preset)
+- [その他、役に立つかもしれないscript](#section-2)
+- [導入を推奨しないプラグイン](#section-3)
 
 最終更新日：2025-04-25 19:51:53
 
@@ -8,17 +18,19 @@ SplatoonのRenderer方法が変わった為、PresetをExportし直しました�
 古いPresetな為Splatoonの機能が追加された事により、追加された部分の設定は意図しない設定になっている可能性が高いです。  
 特に、扇状(Cone)や直線(Line)の塗りつぶし(Fill)がオンになっているせいでやり辛くなっている場合は、個別に該当の部分の設定を変更する事をお勧めします。  
 
+<a id="section-1"></a>
+
 ## 概要-Abstract
 
 Presetとは別に、下記のリンクに記載した公式のScriptの使用をお勧めします。  
 基本的には、公式のScriptを表示だけ変更して使用していますが、`P6 Wroth Flames`のみPresetに合わせて誘導される座標を変更しています。  
-[Script](#Script)  
+[Script](#script)  
 
 
 Presetはこちらです。  
 [JP/EN]トリガーや敵の名前、キャストID等の設定は英語と日本語に対応しています。  
 ※ただし、表示されるメッセージは日本語である事に注意してください。  
-[Preset](#Preset)  
+[Preset](#preset)  
 また、攻略方法はリリードールに合わせて作成しています。  
 [リリードールマクロ](https://jp.finalfantasyxiv.com/lodestone/character/34120564/blog/5178834/  "リリードールマクロ")
   
@@ -914,7 +926,9 @@ Presetの導入はこちらから
 ```
 
 
-# その他、役に立つかもしれないscript  
+<a id="section-2"></a>
+
+## その他、役に立つかもしれないscript  
 
 日本の攻略法に合わせて作られている公式のscriptです。  
 （多分攻略法はリリードール）  
@@ -923,8 +937,10 @@ Presetの導入はこちらから
 導入後は、優先度の設定などお忘れなく  
 [https://github.com/PunishXIV/Splatoon/tree/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise](https://github.com/PunishXIV/Splatoon/tree/main/SplatoonScripts/Duties/Endwalker/Dragonsong's%20Reprise  "公式の竜詩スクリプト")  
 
-# 導入を推奨しないプラグイン
+<a id="section-3"></a>
 
-## DSR Toolbox
+## 導入を推奨しないプラグイン
+
+### DSR Toolbox
 
   `DSR Toolbox`の`Eye Locator`と`Chain Tether`については、類似した機能がPreset内にあります。  

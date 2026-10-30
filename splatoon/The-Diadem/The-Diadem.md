@@ -1,6 +1,8 @@
-***The Diadem Locations***
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
 
-  ディアデム諸島
+# ディアデム諸島
+
+ディアデム諸島
 
   表示範囲100m
 

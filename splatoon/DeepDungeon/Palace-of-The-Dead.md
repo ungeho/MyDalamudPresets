@@ -1,3 +1,5 @@
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
+
 最終更新日：2025-02-28 01:03:04  
   
 SplatoonのRenderer方法が変わる前にexportした状態のPresetだった為、importすると塗りつぶしなしで設定されているはずの円の描画が塗りつぶしになっている問題がありました。  
@@ -114,3 +116,6 @@ SplatoonのRenderer方法が変わる前にexportした状態のPresetだった�
         1. 自身を中心とした（自身のHitbox or 自身のタゲサ）と敵の中心が触れた時に接触した判定  
         2. 自身を中心とした（自身のHitbox or 自身のタゲサ）と敵を中心とした（敵のHitbox or 敵のタゲサ）が触れた時に接触した判定  
       ほとんどの敵はaで判定されて、一部がbの判定かもしれないと予想（未検証）  
+## 関連メモ
+
+- [Turning Enemiesについての補足](Turning_Enemiesについての補足.md)

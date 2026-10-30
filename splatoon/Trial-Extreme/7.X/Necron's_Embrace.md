@@ -1,5 +1,6 @@
-## 7.3 Ex - Necron's Embrace
+[リポジトリの案内](../../../readme.md) · [Splatoon一覧](../../README.md)
 
+# 極永遠の闇討滅戦
 
 ### Script
 

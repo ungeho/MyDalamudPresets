@@ -1,36 +1,28 @@
-* 採集を楽にする
+# Pandora：採集設定
 
-  * Actions-
+[リポジトリの案内](../readme.md) · [Pandora一覧](README.md)
 
-    * Auto-Cordial
+## Actions
 
-      自動的にコーディアルを使用する
+- **Auto-Cordial**：自動的にコーディアルを使用します。
+- **Auto-Mount after Gathering**：採集後にマウントに乗ります。好みのマウント（できれば乗り降りが早そうなもの）を設定します。
 
-    * Auto-Mount after Gathering
+## Targets
 
-      採集後にマウントに乗る
+- **Auto-interact with Garthering Nodes**：近くに採集可能なポイントがある場合、採集画面を開きます。
 
-      * 好みの（出来れば乗り降りが早そうな）マウントを設定
+## Other：Pandora Quick Gather
 
-  * Targets-
+以下の項目と、好みのスキルにチェックを入れます。
 
-    * Auto-interact with Garthering Nodes
+- Disable Starting Buffs on Nodes with Collectibles
+- Enable Pandora Gathering
+- Remember Item Between Nodes
 
-      近くに採集可能なポイントがある場合、採集画面を開く
+## 補足・検討メモ
 
-  * Other-
+以下は組み合わせのアイデアです。動作確認済みの手順としては記載していません。
 
-    * Pandora Quick Gather
-
-      * Disable Starting Buffs on Nodes with Collectibles
-      * Enable Pandora Gathering
-      * Remember Item Between Nodes
-      * 以下、お好みのスキルにチェック
-
-  * 補足、メモ
-
-    island sanctuary automation（移動のみ）を使えば移動の手間も省くことも可能そう（挙動が怪しくなるかも）
-
-    splatoonを使って採取ルート（あるいはテザー）を描いて考えずに移動
-
-    something need doingで移動の手間を減らせたりしない・・・？
+- [Island Sanctuary Automation](../island_sanctuary_automation/README.md)を移動のみに使えば、移動の手間を省けるかもしれません。ただし、挙動が不安定になる可能性があります。
+- [Splatoon](../splatoon/README.md)で採集ルートやテザーを描画し、移動の目安にします。
+- Something Need Doingで移動の手間を減らせないか、という検討メモがあります。

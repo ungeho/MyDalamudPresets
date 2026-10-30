@@ -1,4 +1,17 @@
+[リポジトリの案内](../../readme.md) · [Waymark一覧](../README.md)
+
 # Endwalker-Criterion
+
+## 目次
+
+- [Sil'dihn Subterrane](#sildihn-subterrane)
+- [Sil'dihn Subterrane(Savage)](#sildihn-subterranesavage)
+- [Mount Rokkon](#mount-rokkon)
+- [Mount Rokkon(Savage)](#mount-rokkonsavage)
+- [Aloalo Island](#aloalo-island)
+- [Aloalo Island(Savage)](#aloalo-islandsavage)
+
+各見出しの対象・方式を確認し、その下のインポートデータを使用してください。画像がある項目は、同じ見出し内のデータに対応します。
 
 ## Sil'dihn Subterrane
 

@@ -1,4 +1,11 @@
-# M10S
+[リポジトリの案内](../../../readme.md) · [Splatoon一覧](../../README.md)
+
+# アルカディア零式 M10S
+
+## 目次
+
+- [Script](#script)
+- [Layout](#layout)
 
 ## Script
 

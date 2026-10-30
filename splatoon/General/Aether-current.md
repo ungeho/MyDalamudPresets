@@ -1,3 +1,7 @@
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
+
+# 風脈の泉
+
 * Aether current
 
   日本語のみ

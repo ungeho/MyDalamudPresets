@@ -1,3 +1,5 @@
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
+
 最終更新日：2025-04-25 19:50:57  
   
 SplatoonのRenderer方法が変わった為、PresetをExportし直しました。  
@@ -8,15 +10,24 @@ SplatoonのRenderer方法が変わった為、PresetをExportし直しました�
 
 # The Unending Coil of Bahamud
 
+## 目次
+
+- [概要-Abstract](#section-1)
+- [Script](#script)
+- [Lemegeton](#lemegeton)
+- [Preset](#preset)
+
+<a id="section-1"></a>
+
 ## 概要-Abstract
 
 公式のScriptとLemegetonの一部の機能を併用して使用することをお勧めします。  
-[Script](#Script)  
-[Lemegeton](#Lemegeton)  
+[Script](#script)  
+[Lemegeton](#lemegeton)  
   
 Presetはこちらです。  
 [JP]トリガーのセリフや敵の名前は日本語で設定されています。  
-[Preset](#Preset)  
+[Preset](#preset)  
 
 
 ## Script

@@ -1,6 +1,8 @@
-***Endsinger***
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
 
-  終極の戦いで表示
+# 終極の戦い（Endsinger）
+
+終極の戦いで表示
 
 * Endsigner planetary collision
 

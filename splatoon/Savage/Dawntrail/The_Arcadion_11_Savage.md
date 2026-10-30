@@ -1,7 +1,14 @@
+[リポジトリの案内](../../../readme.md) · [Splatoon一覧](../../README.md)
+
+# アルカディア零式 M11S
+
+## 目次
+
+- [Script](#script)
+- [Layout](#layout)
 
 ※現在調整中
 
-# M11S
 
 ## Script
 

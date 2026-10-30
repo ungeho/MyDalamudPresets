@@ -1,3 +1,5 @@
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
+
 最終更新日：2025-02-28 01:21:47  
   
 SplatoonのRenderer方法が変わった為、PresetをExportし直しました。  
@@ -5,11 +7,16 @@ SplatoonのRenderer方法が変わった為、PresetをExportし直しました�
 古いPresetな為Splatoonの機能が追加された事により、追加された部分の設定は意図しない設定になっている可能性が高いです。  
 特に、扇状(Cone)や直線(Line)の塗りつぶし(Fill)がオンになっているせいでやり辛くなっている場合は、個別に該当の部分の設定を変更する事をお勧めします。  
 
-## Aloalo Island
+# Aloalo Island
+
+## 目次
+
+- [Script](#script)
+- [異聞アロアロPreset](#section-1)
 
 異聞アロアロ(零式)のプリセット
 
-### Script
+## Script
 
 3ボス、ボムのスクリプト(2,3回目のみ表示)
 
@@ -17,19 +24,21 @@ SplatoonのRenderer方法が変わった為、PresetをExportし直しました�
 https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Endwalker/Aloalo%20Bombs.cs
 ```
 
-1.script導入後、歯車マークを押して設定を開く  
-2.`Registered elements`タブを開く  
-3.下記のscript settingsをコピーして`CTRL`を押しながら`Import customized settings from clipboard`をクリックする。  
+1. script導入後、歯車マークを押して設定を開く  
+2. `Registered elements`タブを開く  
+3. 下記のscript settingsをコピーして`CTRL`を押しながら`Import customized settings from clipboard`をクリックする。  
 4. 最後に`Close and save configuration`をクリックして閉じる。  
 
-#### script settings
+### script settings
 
 ```
 {"Elements":{"Bomb0":{"Name":"","type":1,"Enabled":false,"offX":0.0,"offY":0.0,"offZ":0.0,"radius":12.0,"color":4278255389,"overlayBGColor":1879048447,"overlayTextColor":3355507452,"overlayVOffset":0.0,"overlayFScale":1.0,"overlayPlaceholders":false,"thicc":4.0,"overlayText":"Bomb","refActorObjectID":21845,"refActorTargetingYou":0,"refActorComparisonAnd":false,"refActorRequireCast":false,"refActorCastReverse":false,"refActorUseCastTime":false,"refActorCastTimeMin":0.0,"refActorCastTimeMax":0.0,"refActorUseOvercast":false,"refTargetYou":false,"refActorRequireBuff":false,"refActorRequireAllBuffs":false,"refActorRequireBuffsInvert":false,"refActorUseBuffTime":false,"refActorUseBuffParam":false,"refActorBuffTimeMin":0.0,"refActorBuffTimeMax":0.0,"refActorObjectLife":false,"FillStep":0.5,"refActorComparisonType":2,"refActorType":0,"includeHitbox":false,"includeOwnHitbox":false,"includeRotation":false,"onlyTargetable":false,"onlyUnTargetable":false,"onlyVisible":false,"tether":true,"AdditionalRotation":0.0,"LineAddHitboxLengthX":false,"LineAddHitboxLengthY":false,"LineAddHitboxLengthZ":false,"LineAddHitboxLengthXA":false,"LineAddHitboxLengthYA":false,"LineAddHitboxLengthZA":false,"LineAddPlayerHitboxLengthX":false,"LineAddPlayerHitboxLengthY":false,"LineAddPlayerHitboxLengthZ":false,"LineAddPlayerHitboxLengthXA":false,"LineAddPlayerHitboxLengthYA":false,"LineAddPlayerHitboxLengthZA":false,"Filled":false,"FaceMe":false,"LimitDistance":false,"LimitDistanceInvert":false,"DistanceSourceX":0.0,"DistanceSourceY":0.0,"DistanceSourceZ":0.0,"DistanceMin":0.0,"DistanceMax":0.0,"LimitRotation":false,"refActorUseTransformation":false,"LegacyFill":false,"Unsafe":false,"refMark":false,"refMarkID":0,"faceplayer":"<1>"},"Bomb1":{"Name":"","type":1,"Enabled":false,"offX":0.0,"offY":0.0,"offZ":0.0,"radius":12.0,"color":4278255389,"overlayBGColor":1879048447,"overlayTextColor":3355508731,"overlayVOffset":0.0,"overlayFScale":1.0,"overlayPlaceholders":false,"thicc":4.0,"overlayText":"Bomb","refActorObjectID":21845,"refActorTargetingYou":0,"refActorComparisonAnd":false,"refActorRequireCast":false,"refActorCastReverse":false,"refActorUseCastTime":false,"refActorCastTimeMin":0.0,"refActorCastTimeMax":0.0,"refActorUseOvercast":false,"refTargetYou":false,"refActorRequireBuff":false,"refActorRequireAllBuffs":false,"refActorRequireBuffsInvert":false,"refActorUseBuffTime":false,"refActorUseBuffParam":false,"refActorBuffTimeMin":0.0,"refActorBuffTimeMax":0.0,"refActorObjectLife":false,"FillStep":0.5,"refActorComparisonType":2,"refActorType":0,"includeHitbox":false,"includeOwnHitbox":false,"includeRotation":false,"onlyTargetable":false,"onlyUnTargetable":false,"onlyVisible":false,"tether":true,"AdditionalRotation":0.0,"LineAddHitboxLengthX":false,"LineAddHitboxLengthY":false,"LineAddHitboxLengthZ":false,"LineAddHitboxLengthXA":false,"LineAddHitboxLengthYA":false,"LineAddHitboxLengthZA":false,"LineAddPlayerHitboxLengthX":false,"LineAddPlayerHitboxLengthY":false,"LineAddPlayerHitboxLengthZ":false,"LineAddPlayerHitboxLengthXA":false,"LineAddPlayerHitboxLengthYA":false,"LineAddPlayerHitboxLengthZA":false,"Filled":false,"FaceMe":false,"LimitDistance":false,"LimitDistanceInvert":false,"DistanceSourceX":0.0,"DistanceSourceY":0.0,"DistanceSourceZ":0.0,"DistanceMin":0.0,"DistanceMax":0.0,"LimitRotation":false,"refActorUseTransformation":false,"LegacyFill":false,"Unsafe":false,"refMark":false,"refMarkID":0,"faceplayer":"<1>"},"Bomb2":{"Name":"","type":1,"Enabled":false,"offX":0.0,"offY":0.0,"offZ":0.0,"radius":12.0,"color":4278255389,"overlayBGColor":1879048447,"overlayTextColor":3355508731,"overlayVOffset":0.0,"overlayFScale":1.0,"overlayPlaceholders":false,"thicc":4.0,"overlayText":"Bomb","refActorObjectID":21845,"refActorTargetingYou":0,"refActorComparisonAnd":false,"refActorRequireCast":false,"refActorCastReverse":false,"refActorUseCastTime":false,"refActorCastTimeMin":0.0,"refActorCastTimeMax":0.0,"refActorUseOvercast":false,"refTargetYou":false,"refActorRequireBuff":false,"refActorRequireAllBuffs":false,"refActorRequireBuffsInvert":false,"refActorUseBuffTime":false,"refActorUseBuffParam":false,"refActorBuffTimeMin":0.0,"refActorBuffTimeMax":0.0,"refActorObjectLife":false,"FillStep":0.5,"refActorComparisonType":2,"refActorType":0,"includeHitbox":false,"includeOwnHitbox":false,"includeRotation":false,"onlyTargetable":false,"onlyUnTargetable":false,"onlyVisible":false,"tether":true,"AdditionalRotation":0.0,"LineAddHitboxLengthX":false,"LineAddHitboxLengthY":false,"LineAddHitboxLengthZ":false,"LineAddHitboxLengthXA":false,"LineAddHitboxLengthYA":false,"LineAddHitboxLengthZA":false,"LineAddPlayerHitboxLengthX":false,"LineAddPlayerHitboxLengthY":false,"LineAddPlayerHitboxLengthZ":false,"LineAddPlayerHitboxLengthXA":false,"LineAddPlayerHitboxLengthYA":false,"LineAddPlayerHitboxLengthZA":false,"Filled":false,"FaceMe":false,"LimitDistance":false,"LimitDistanceInvert":false,"DistanceSourceX":0.0,"DistanceSourceY":0.0,"DistanceSourceZ":0.0,"DistanceMin":0.0,"DistanceMax":0.0,"LimitRotation":false,"refActorUseTransformation":false,"LegacyFill":false,"Unsafe":false,"refMark":false,"refMarkID":0,"faceplayer":"<1>"}}}
 ```
 
 
-### 異聞アロアロPreset
+<a id="section-1"></a>
+
+## 異聞アロアロPreset
 
 [JP/EN]トリガーのセリフや敵の名前は日本語と英語に対応しています。  
 

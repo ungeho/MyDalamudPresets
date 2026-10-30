@@ -1,6 +1,13 @@
+[リポジトリの案内](../../../readme.md) · [Splatoon一覧](../../README.md)
 
+# アルカディア零式 M4S
 
-### Script
+## 目次
+
+- [Script](#script)
+- [Preset](#preset)
+
+## Script
 
 * Splatoon公式から、エレクトロープ2回目のスクリプト  
     お好みで`歯車マーク`を押して  
@@ -33,7 +40,7 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/
 https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/R4S%20Chain%20Lightning.cs
 ```
 
-*Splatoon公式から、日出スクリプト
+* Splatoon公式から、日出スクリプト
 
 `歯車マーク`を押して`Configuration`タブからAoEの表示秒数、担当のタワーの方角、ビーム誘導（時計回りor反時計回り）を設定する。
 
@@ -43,7 +50,7 @@ https://github.com/PunishXIV/Splatoon/raw/main/SplatoonScripts/Duties/Dawntrail/
 ```
 
 
-### Preset
+## Preset
 
 ```
 ~Lv2~{"Name":"ウィケッドサンダー_フライングウィッチ(格子状AoE)","Group":"アルカディアLH級零式4層","ZoneLockH":[1232],"ElementsL":[{"Name":"本体","type":3,"refY":50.0,"radius":2.5,"color":4278190335,"fillIntensity":0.3,"originFillColor":838861055,"endFillColor":838861055,"refActorNPCNameID":13057,"refActorRequireCast":true,"refActorCastId":[38377],"refActorComparisonType":6,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":2.0},{"Name":"ガン・バッテリー","type":3,"refY":50.0,"radius":2.5,"color":4278190335,"fillIntensity":0.3,"originFillColor":838861055,"endFillColor":838861055,"refActorNPCNameID":13059,"refActorObjectLife":true,"refActorLifetimeMin":0.0,"refActorLifetimeMax":7.0,"refActorComparisonType":6,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":2.0},{"Name":"爆発","type":3,"refY":40.0,"radius":8.0,"color":4278255389,"fillIntensity":0.205,"originFillColor":1459618047,"endFillColor":1459618047,"refActorNPCNameID":13057,"refActorRequireCast":true,"refActorCastId":[38378],"refActorUseCastTime":true,"refActorCastTimeMax":2.9,"refActorComparisonType":6,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0},{"Name":"爆発(3秒前)","type":3,"refY":40.0,"radius":8.0,"color":4278190335,"fillIntensity":0.202,"originFillColor":838861055,"endFillColor":838861055,"refActorNPCNameID":13057,"refActorRequireCast":true,"refActorCastId":[38378],"refActorUseCastTime":true,"refActorCastTimeMin":3.0,"refActorCastTimeMax":6.0,"refActorComparisonType":6,"includeRotation":true,"refActorTetherTimeMin":0.0,"refActorTetherTimeMax":0.0,"FillStep":2.0}]}

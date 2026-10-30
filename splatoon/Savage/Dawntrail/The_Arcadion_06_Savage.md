@@ -1,9 +1,18 @@
+[リポジトリの案内](../../../readme.md) · [Splatoon一覧](../../README.md)
+
+# アルカディア零式 M6S
+
+## 目次
+
+- [Script](#script)
+- [Preset](#preset)
+
 攻略方法はgame8(新FFO)を想定  
 
 
-### Script
+## Script
 
-#### Cloud Navigation
+### Cloud Navigation
 
 公式から、積乱雲と雷マーカーの誘導表示  
 
@@ -19,7 +28,7 @@
 https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties/Dawntrail/M6S%20Cloud%20Navigation.cs
 ```
 
-##### Registered elements
+#### Registered elements
 
 線を少し細くして、塗りつぶしをOFFにしています。  
 お好みで  
@@ -30,7 +39,7 @@ https://github.com/PunishXIV/Splatoon/raw/refs/heads/main/SplatoonScripts/Duties
 
 
 
-### Preset
+## Preset
 
 トリガーは全ての言語で動作します。  
 しかし、表示されるメッセージは一部日本語です。  

@@ -1,3 +1,5 @@
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
+
 最終更新日：2025-02-28 00:52:51  
   
 SplatoonのRenderer方法が変わる前にexportした状態のPresetだった為、importすると塗りつぶしなしで設定されているはずの円の描画が塗りつぶしになっている問題がありました。  

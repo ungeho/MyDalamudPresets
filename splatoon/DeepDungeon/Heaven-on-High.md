@@ -1,3 +1,5 @@
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
+
 最終更新日：2025-02-28 01:02:50  
   
 SplatoonのRenderer方法が変わる前にexportした状態のPresetだった為、importすると塗りつぶしなしで設定されているはずの円の描画が塗りつぶしになっている問題がありました。  
@@ -100,3 +102,6 @@ SplatoonのRenderer方法が変わる前にexportした状態のPresetだった�
   * 接触感知  
     全ての敵を中心に、赤色の半径 0m の円を表示（ドット）  
     接触判定の目安  
+## 関連メモ
+
+- [Turning Enemiesについての補足](Turning_Enemiesについての補足.md)

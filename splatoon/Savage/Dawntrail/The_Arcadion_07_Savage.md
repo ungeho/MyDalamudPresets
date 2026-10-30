@@ -1,7 +1,10 @@
+[リポジトリの案内](../../../readme.md) · [Splatoon一覧](../../README.md)
+
+# アルカディア零式 M7S
 
 攻略方法はgame8+さり式を想定しています。  
 
-### Preset  
+## Preset  
 
 いしあ式のPresetも入っています。  
 

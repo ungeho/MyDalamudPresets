@@ -1,3 +1,5 @@
+[リポジトリの案内](../../readme.md) · [Splatoon一覧](../README.md)
+
 最終更新日：2025-04-25 19:50:45  
   
 SplatoonのRenderer方法が変わった為、PresetをExportし直しました。  
@@ -5,7 +7,14 @@ SplatoonのRenderer方法が変わった為、PresetをExportし直しました�
 古いPresetな為Splatoonの機能が追加された事により、追加された部分の設定は意図しない設定になっている可能性が高いです。  
 特に、扇状(Cone)や直線(Line)の塗りつぶし(Fill)がオンになっているせいでやり辛くなっている場合は、個別に該当の部分の設定を変更する事をお勧めします。  
 
-## The Weapon's Refrain
+# The Weapon's Refrain
+
+## 目次
+
+- [ガルーダフェーズ](#section-1)
+- [イフリートフェーズ](#section-2)
+- [タイタンフェーズ](#section-3)
+- [アルテマフェーズ](#section-4)
 
   
   **最新バージョンのSplatoonで動作確認をしていないPresetです。**  
@@ -47,7 +56,9 @@ SplatoonのRenderer方法が変わった為、PresetをExportし直しました�
 ~Lv2~{"Name":"アルテマ（3蛮神フェーズ:フェザーレイン）","Description":"","Group":"Ultimate Weapon's Refrain","ZoneLockH":[777],"Scenes":[6],"DCond":5,"UseTriggers":true,"Freezing":true,"FreezeFor":3.4,"IntervalBetweenFreezes":1.0,"Triggers":[{"Type":2,"Duration":0.5,"Match":"(1644>11093)","MatchDelay":7.6}],"ElementsL":[{"Name":"フェザーレイン","type":1,"radius":3.0,"color":838926140,"refActorPlaceholder":["<1>","<2>","<3>","<4>","<5>","<6>","<7>","<8>"],"refActorComparisonType":5,"includeRotation":true}]}
 ```
 
-### ガルーダフェーズ
+<a id="section-1"></a>
+
+## ガルーダフェーズ
 
 * ガルーダ
 
@@ -71,7 +82,9 @@ SplatoonのRenderer方法が変わった為、PresetをExportし直しました�
 
   ガルーダフェーズのフェザーレインを鳴き声の0.4秒前にプレイヤーの足元を参考に表示（プレイヤー動いている場合、少しのズレが発生する場合があるがほとんど正確な位置に表示される。）
 
-### イフリートフェーズ
+<a id="section-2"></a>
+
+## イフリートフェーズ
 
 * イフリート
 
@@ -109,7 +122,9 @@ SplatoonのRenderer方法が変わった為、PresetをExportし直しました�
 
   イフリートの直線AoEを表示する。
 
-### タイタンフェーズ
+<a id="section-3"></a>
+
+## タイタンフェーズ
 
 * タイタン(KB)
 
@@ -141,7 +156,9 @@ SplatoonのRenderer方法が変わった為、PresetをExportし直しました�
 
   表示された円の外側を走る限り、中央の岩に当たる事はない目安。
 
-### アルテマフェーズ
+<a id="section-4"></a>
+
+## アルテマフェーズ
 
 * アルテマ
 
